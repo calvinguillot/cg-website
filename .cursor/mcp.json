@@ -11,6 +11,10 @@
 		"tailwind-svelte-assistant": {
 			"url": "https://server.smithery.ai/@CaullenOmdahl/tailwind-svelte-assistant/mcp",
 			"transport": "http"
+		},
+		"threlte-mcp": {
+			"command": "npx",
+			"args": ["-y", "threlte-mcp"]
 		}
 	}
 }

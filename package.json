@@ -12,7 +12,8 @@
 		"check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
 		"check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch",
 		"lint": "prettier --check . && eslint .",
-		"format": "prettier --write ."
+		"format": "prettier --write .",
+		"data:cv-graph": "node scripts/generate-cv-graph.mjs"
 	},
 	"devDependencies": {
 		"@eslint/compat": "^2.0.4",
@@ -42,6 +43,7 @@
 		"@threlte/core": "^8.5.9",
 		"@threlte/extras": "^9.14.5",
 		"@types/three": "^0.183.1",
-		"three": "^0.183.2"
+		"three": "^0.183.2",
+		"threlte-postprocessing": "^0.0.10"
 	}
 }
