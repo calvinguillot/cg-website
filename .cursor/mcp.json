@@ -1,0 +1,16 @@
+{
+	"mcpServers": {
+		"svelte": {
+			"command": "npx",
+			"args": ["-y", "@sveltejs/mcp"]
+		},
+		"threejs-devtools-mcp": {
+			"command": "npx",
+			"args": ["-y", "threejs-devtools-mcp"]
+		},
+		"tailwind-svelte-assistant": {
+			"url": "https://server.smithery.ai/@CaullenOmdahl/tailwind-svelte-assistant/mcp",
+			"transport": "http"
+		}
+	}
+}
