@@ -40,10 +40,6 @@
 		"vite": "^8.0.7"
 	},
 	"dependencies": {
-		"@threlte/core": "^8.5.9",
-		"@threlte/extras": "^9.14.5",
-		"@types/three": "^0.183.1",
-		"three": "^0.183.2",
-		"threlte-postprocessing": "^0.0.10"
+		"d3": "^7.9.0"
 	}
 }
