@@ -30,12 +30,12 @@ const techCenters = {
 
 const yearCenters = {
 	'pre-2021': [-28, 0, 0],
-	'2021': [-18, 0, 0],
-	'2022': [-8, 0, 0],
-	'2023': [2, 0, 0],
-	'2024': [12, 0, 0],
-	'2025': [22, 0, 0],
-	'2026': [32, 0, 0]
+	2021: [-18, 0, 0],
+	2022: [-8, 0, 0],
+	2023: [2, 0, 0],
+	2024: [12, 0, 0],
+	2025: [22, 0, 0],
+	2026: [32, 0, 0]
 };
 
 function offsetFromId(id, salt = 0) {
@@ -90,7 +90,8 @@ Also **Teaching Assistant** (Feb 2023 – Oct 2023) and **Lecturer (ARTS)** on G
 		type: 'education',
 		year: 2022,
 		yearBucket: '2022',
-		description: 'Thesis on human-in-the-loop xAI, VGG-16, SHAP, Bayesian optimization. Published at Deployable AI 2022.',
+		description:
+			'Thesis on human-in-the-loop xAI, VGG-16, SHAP, Bayesian optimization. Published at Deployable AI 2022.',
 		technologies: ['Python', 'PyTorch', 'SHAP', 'Bayesian Optimization', 'computer vision'],
 		location: 'Aalto University, Espoo, Finland',
 		medium: null,
@@ -161,8 +162,16 @@ Spearheading portfolio websites and mobile apps for sports betting / SEO market.
 		type: 'work',
 		year: 2024,
 		yearBucket: '2024',
-		description: "Master's course: diffusion, ComfyUI, SDXL, video/audio/3D, Gaussian Splatting, VR.",
-		technologies: ['Stable Diffusion', 'ComfyUI', 'ControlNet', 'AnimateDiff', 'Gaussian Splatting', 'VR'],
+		description:
+			"Master's course: diffusion, ComfyUI, SDXL, video/audio/3D, Gaussian Splatting, VR.",
+		technologies: [
+			'Stable Diffusion',
+			'ComfyUI',
+			'ControlNet',
+			'AnimateDiff',
+			'Gaussian Splatting',
+			'VR'
+		],
 		location: 'Espoo, Finland',
 		medium: null,
 		collaborators: [],
@@ -356,7 +365,14 @@ Master's thesis installation: evolutionary sonic artificial life, NEAT, physarum
 		year: 2024,
 		yearBucket: '2024',
 		description: 'VR + Gaussian Splatting + Stable Diffusion in TouchDesigner.',
-		technologies: ['VR', 'TouchDesigner', 'Stable Diffusion', 'Gaussian Splatting', 'Python', 'Oculus'],
+		technologies: [
+			'VR',
+			'TouchDesigner',
+			'Stable Diffusion',
+			'Gaussian Splatting',
+			'Python',
+			'Oculus'
+		],
 		location: 'ACRE, Espoo',
 		medium: 'VR interactive',
 		collaborators: ['Wild Perra'],
@@ -442,7 +458,14 @@ AI-generated variations, ElevenLabs voice, 10-minute installation.`
 		year: 2024,
 		yearBucket: '2024',
 		description: 'SDXL ComfyUI, ControlNet, IP Adapter, AnimateDiff.',
-		technologies: ['Stable Diffusion', 'ComfyUI', 'ControlNet', 'IP Adapter', 'AnimateDiff', 'SDXL'],
+		technologies: [
+			'Stable Diffusion',
+			'ComfyUI',
+			'ControlNet',
+			'IP Adapter',
+			'AnimateDiff',
+			'SDXL'
+		],
 		location: 'Helsinki, Finland',
 		medium: 'Music video',
 		collaborators: [],
@@ -689,7 +712,15 @@ Flask, Ollama (Gemma), extended_cv.md → tailored HTML → PDF.`
 		year: 2025,
 		yearBucket: '2025',
 		description: 'SvelteKit, Supabase, Capacitor, Recharts/D3.',
-		technologies: ['SvelteKit', 'TypeScript', 'Supabase', 'Capacitor', 'TailwindCSS', 'D3.js', 'Recharts'],
+		technologies: [
+			'SvelteKit',
+			'TypeScript',
+			'Supabase',
+			'Capacitor',
+			'TailwindCSS',
+			'D3.js',
+			'Recharts'
+		],
 		location: 'GitHub Pages / Android',
 		medium: null,
 		collaborators: [],

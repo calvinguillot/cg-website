@@ -16,9 +16,9 @@ Define custom values in your main CSS file (e.g., `layout.css`):
 @import 'tailwindcss';
 
 @theme {
-  --color-brand: #your-color;
-  --color-surface: oklch(0.15 0.01 260);
-  --font-display: 'Your Font', system-ui, sans-serif;
+	--color-brand: #your-color;
+	--color-surface: oklch(0.15 0.01 260);
+	--font-display: 'Your Font', system-ui, sans-serif;
 }
 ```
 
@@ -49,9 +49,9 @@ Tailwind v4 supports container queries natively:
 
 ```svelte
 <div class="@container">
-  <div class="@sm:grid-cols-2 @lg:grid-cols-3 grid grid-cols-1">
-    <!-- Responds to container width, not viewport -->
-  </div>
+	<div class="grid grid-cols-1 @sm:grid-cols-2 @lg:grid-cols-3">
+		<!-- Responds to container width, not viewport -->
+	</div>
 </div>
 ```
 

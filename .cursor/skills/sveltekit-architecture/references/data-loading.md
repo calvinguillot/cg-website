@@ -12,9 +12,9 @@ secrets or server-only APIs at build time.
 export const prerender = true;
 
 export async function load() {
-  // This runs at build time with adapter-static
-  const projects = await fetchProjectData();
-  return { projects };
+	// This runs at build time with adapter-static
+	const projects = await fetchProjectData();
+	return { projects };
 }
 ```
 
@@ -27,16 +27,12 @@ For parameterized routes, provide all possible values:
 export const prerender = true;
 
 export function entries() {
-  return [
-    { slug: 'sonorama' },
-    { slug: 'carlosverse' },
-    { slug: 'kraftlaus' }
-  ];
+	return [{ slug: 'sonorama' }, { slug: 'carlosverse' }, { slug: 'kraftlaus' }];
 }
 
 export async function load({ params }) {
-  const project = getProjectBySlug(params.slug);
-  return { project };
+	const project = getProjectBySlug(params.slug);
+	return { project };
 }
 ```
 
@@ -58,7 +54,7 @@ Then in `+page.js`:
 import { projects } from '$lib/data/projects';
 
 export function load() {
-  return { projects };
+	return { projects };
 }
 ```
 
@@ -70,8 +66,8 @@ Always handle missing data gracefully:
 import { error } from '@sveltejs/kit';
 
 export function load({ params }) {
-  const project = getProjectBySlug(params.slug);
-  if (!project) throw error(404, 'Project not found');
-  return { project };
+	const project = getProjectBySlug(params.slug);
+	if (!project) throw error(404, 'Project not found');
+	return { project };
 }
 ```

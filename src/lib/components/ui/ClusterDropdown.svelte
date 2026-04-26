@@ -13,7 +13,10 @@
 <div
 	class="pointer-events-auto fixed top-4 left-4 z-20 rounded-xl border border-white/10 bg-black/40 px-3 py-2 shadow-lg backdrop-blur-md md:top-6 md:left-6"
 >
-	<label class="mb-1 block text-xs font-medium tracking-wide text-zinc-400 uppercase" for="cluster-mode">
+	<label
+		class="mb-1 block text-xs font-medium tracking-wide text-zinc-400 uppercase"
+		for="cluster-mode"
+	>
 		Clustering
 	</label>
 	<select

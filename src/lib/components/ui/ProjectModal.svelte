@@ -85,9 +85,10 @@
 		<div class="border-t border-white/10 pt-4">
 			<p class="mb-2 text-xs font-medium tracking-wide text-zinc-500 uppercase">Details</p>
 			<div
-				class="prose prose-invert prose-sm max-w-none text-zinc-300 prose-headings:font-semibold prose-headings:text-zinc-100 prose-p:my-2 prose-strong:text-white"
+				class="prose prose-sm max-w-none text-zinc-300 prose-invert prose-headings:font-semibold prose-headings:text-zinc-100 prose-p:my-2 prose-strong:text-white"
 			>
-				<pre class="whitespace-pre-wrap font-sans text-sm leading-relaxed text-zinc-300">{node.markdownContent}</pre>
+				<pre
+					class="font-sans text-sm leading-relaxed whitespace-pre-wrap text-zinc-300">{node.markdownContent}</pre>
 			</div>
 		</div>
 	</div>

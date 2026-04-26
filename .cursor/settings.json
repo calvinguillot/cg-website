@@ -1,10 +1,10 @@
 {
-  "plugins": {
-    "svelte": {
-      "enabled": true
-    },
-    "superpowers": {
-      "enabled": true
-    }
-  }
+	"plugins": {
+		"svelte": {
+			"enabled": true
+		},
+		"superpowers": {
+			"enabled": true
+		}
+	}
 }

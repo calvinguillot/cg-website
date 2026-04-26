@@ -84,26 +84,23 @@ void main() {
 
 ```svelte
 <script lang="ts">
-  import { useTask } from '@threlte/core';
-  import * as THREE from 'three';
+	import { useTask } from '@threlte/core';
+	import * as THREE from 'three';
 
-  let time = $state(0);
-  useTask((delta) => { time += delta; });
+	let time = $state(0);
+	useTask((delta) => {
+		time += delta;
+	});
 
-  let uniforms = $derived({
-    uTime: new THREE.Uniform(time),
-    uColorA: new THREE.Uniform(new THREE.Color('#0066ff')),
-    uColorB: new THREE.Uniform(new THREE.Color('#ff6600')),
-    uStrength: new THREE.Uniform(0.3)
-  });
+	let uniforms = $derived({
+		uTime: new THREE.Uniform(time),
+		uColorA: new THREE.Uniform(new THREE.Color('#0066ff')),
+		uColorB: new THREE.Uniform(new THREE.Color('#ff6600')),
+		uStrength: new THREE.Uniform(0.3)
+	});
 </script>
 
-<T.ShaderMaterial
-  vertexShader={vert}
-  fragmentShader={frag}
-  {uniforms}
-  transparent
-/>
+<T.ShaderMaterial vertexShader={vert} fragmentShader={frag} {uniforms} transparent />
 ```
 
 ## Post-Processing
@@ -112,19 +109,22 @@ Use `@threlte/extras` or Three.js `EffectComposer` directly:
 
 ```svelte
 <script lang="ts">
-  import { useThrelte, useTask } from '@threlte/core';
-  import { EffectComposer } from 'three/examples/jsm/postprocessing/EffectComposer.js';
-  import { RenderPass } from 'three/examples/jsm/postprocessing/RenderPass.js';
-  import { UnrealBloomPass } from 'three/examples/jsm/postprocessing/UnrealBloomPass.js';
+	import { useThrelte, useTask } from '@threlte/core';
+	import { EffectComposer } from 'three/examples/jsm/postprocessing/EffectComposer.js';
+	import { RenderPass } from 'three/examples/jsm/postprocessing/RenderPass.js';
+	import { UnrealBloomPass } from 'three/examples/jsm/postprocessing/UnrealBloomPass.js';
 
-  const { renderer, scene, camera } = useThrelte();
+	const { renderer, scene, camera } = useThrelte();
 
-  const composer = new EffectComposer(renderer);
-  composer.addPass(new RenderPass(scene, camera.current));
-  composer.addPass(new UnrealBloomPass(undefined, 1.5, 0.4, 0.85));
+	const composer = new EffectComposer(renderer);
+	composer.addPass(new RenderPass(scene, camera.current));
+	composer.addPass(new UnrealBloomPass(undefined, 1.5, 0.4, 0.85));
 
-  useTask(() => {
-    composer.render();
-  }, { autoRender: false });
+	useTask(
+		() => {
+			composer.render();
+		},
+		{ autoRender: false }
+	);
 </script>
 ```
