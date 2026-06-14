@@ -4,7 +4,7 @@
 
 <div class="flex h-dvh items-center justify-center">
 	<a
-		href="/temp/CG_extended_cv.md"
+		href="/temp/CG_Extended_CV.pdf"
 		class="text-xl font-medium tracking-wide text-white hover:underline">CV</a
 	>
 </div>
