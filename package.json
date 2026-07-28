@@ -43,6 +43,7 @@
 		"@threlte/core": "^8.5.9",
 		"@threlte/extras": "^9.14.5",
 		"@types/three": "^0.183.1",
+		"gsap": "^3.15.0",
 		"three": "^0.183.2",
 		"threlte-postprocessing": "^0.0.10"
 	}
