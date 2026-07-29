@@ -15,6 +15,12 @@
 	let container: HTMLDivElement;
 	let cards: HTMLDivElement[] = [];
 
+	const TAP_MOVE_THRESHOLD = 7;
+	const TAP_MAX_DURATION = 450;
+
+	let bubbleCtx: gsap.Context | undefined;
+	let pointerDown: { x: number; y: number; t: number; item: GalleryItem } | null = null;
+
 	function handleSelect(item: GalleryItem, event: MouseEvent | KeyboardEvent) {
 		if (transitioning) return;
 		transitioning = true;
@@ -32,21 +38,46 @@
 		bubbleStyle = `left:${x}px;top:${y}px;width:${dim}px;height:${dim}px;background:${item.color};`;
 
 		requestAnimationFrame(() => {
+			bubbleCtx?.revert();
+
 			if (!bubble) {
 				goto(`${base}/work/${item.id}`);
 				return;
 			}
-			gsap.fromTo(
-				bubble,
-				{ scale: 0, opacity: 1 },
-				{
-					scale: 1,
-					duration: 0.7,
-					ease: 'power3.inOut',
-					onComplete: () => goto(`${base}/work/${item.id}`)
-				}
-			);
+
+			bubbleCtx = gsap.context(() => {
+				gsap.fromTo(
+					bubble,
+					{ scale: 0, opacity: 1 },
+					{
+						scale: 1,
+						duration: 0.7,
+						ease: 'power3.inOut',
+						onComplete: () => goto(`${base}/work/${item.id}`)
+					}
+				);
+			});
 		});
+	}
+
+	function handlePointerDown(item: GalleryItem, event: PointerEvent) {
+		pointerDown = { x: event.clientX, y: event.clientY, t: performance.now(), item };
+	}
+
+	function handlePointerUp(item: GalleryItem, event: PointerEvent) {
+		if (!pointerDown || pointerDown.item.id !== item.id) return;
+
+		const moved = Math.hypot(event.clientX - pointerDown.x, event.clientY - pointerDown.y);
+		const dt = performance.now() - pointerDown.t;
+		pointerDown = null;
+
+		if (moved < TAP_MOVE_THRESHOLD && dt < TAP_MAX_DURATION) {
+			handleSelect(item, event);
+		}
+	}
+
+	function handlePointerCancel() {
+		pointerDown = null;
 	}
 
 	onMount(() => {
@@ -101,7 +132,10 @@
 
 		updateCards();
 
-		return () => ctx.revert();
+		return () => {
+			bubbleCtx?.revert();
+			ctx.revert();
+		};
 	});
 </script>
 
@@ -114,7 +148,9 @@
 				style="background-color: {item.color};"
 				onmouseenter={() => (hovered = item)}
 				onmouseleave={() => (hovered = null)}
-				onclick={(e) => handleSelect(item, e)}
+				onpointerdown={(e) => handlePointerDown(item, e)}
+				onpointerup={(e) => handlePointerUp(item, e)}
+				onpointercancel={handlePointerCancel}
 				onkeydown={(e) => e.key === 'Enter' && handleSelect(item, e)}
 				role="button"
 				tabindex="0"
