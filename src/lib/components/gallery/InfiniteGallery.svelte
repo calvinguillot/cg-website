@@ -29,7 +29,7 @@
 		let x = window.innerWidth / 2;
 		let y = window.innerHeight / 2;
 
-		if ('x' in origin) {
+		if (!(origin instanceof KeyboardEvent)) {
 			x = origin.x;
 			y = origin.y;
 		}
