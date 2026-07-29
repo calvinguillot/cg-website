@@ -1,5 +1,7 @@
 <script lang="ts">
 	import { onMount } from 'svelte';
+	import { goto } from '$app/navigation';
+	import { base } from '$app/paths';
 	import gsap from 'gsap';
 	import Observer from 'gsap/Observer';
 	import type { GalleryItem } from '$lib/data/gallery';
@@ -7,8 +9,45 @@
 	let { items }: { items: GalleryItem[] } = $props();
 
 	let hovered = $state<GalleryItem | null>(null);
+	let transitioning = $state(false);
+	let bubbleStyle = $state('');
+	let bubble = $state<HTMLSpanElement | null>(null);
 	let container: HTMLDivElement;
 	let cards: HTMLDivElement[] = [];
+
+	function handleSelect(item: GalleryItem, event: MouseEvent | KeyboardEvent) {
+		if (transitioning) return;
+		transitioning = true;
+
+		let x = window.innerWidth / 2;
+		let y = window.innerHeight / 2;
+
+		if (event instanceof MouseEvent) {
+			x = event.clientX;
+			y = event.clientY;
+		}
+
+		const diag = Math.hypot(window.innerWidth, window.innerHeight);
+		const dim = diag * 2;
+		bubbleStyle = `left:${x}px;top:${y}px;width:${dim}px;height:${dim}px;background:${item.color};`;
+
+		requestAnimationFrame(() => {
+			if (!bubble) {
+				goto(`${base}/work/${item.id}`);
+				return;
+			}
+			gsap.fromTo(
+				bubble,
+				{ scale: 0, opacity: 1 },
+				{
+					scale: 1,
+					duration: 0.7,
+					ease: 'power3.inOut',
+					onComplete: () => goto(`${base}/work/${item.id}`)
+				}
+			);
+		});
+	}
 
 	onMount(() => {
 		gsap.registerPlugin(Observer);
@@ -45,6 +84,14 @@
 		};
 
 		const ctx = gsap.context(() => {
+			gsap.from(cards, {
+				scale: 0,
+				opacity: 0,
+				duration: 0.8,
+				stagger: 0.02,
+				ease: 'back.out(1.7)'
+			});
+
 			Observer.create({
 				target: container,
 				type: 'pointer,touch,wheel',
@@ -67,6 +114,8 @@
 				style="background-color: {item.color};"
 				onmouseenter={() => (hovered = item)}
 				onmouseleave={() => (hovered = null)}
+				onclick={(e) => handleSelect(item, e)}
+				onkeydown={(e) => e.key === 'Enter' && handleSelect(item, e)}
 				role="button"
 				tabindex="0"
 			>
@@ -92,3 +141,13 @@
 		{/if}
 	</div>
 </div>
+
+{#if transitioning}
+	<div class="pointer-events-none fixed inset-0 z-50 overflow-hidden">
+		<span
+			bind:this={bubble}
+			class="absolute block -translate-x-1/2 -translate-y-1/2 rounded-full"
+			style={bubbleStyle}
+		></span>
+	</div>
+{/if}
