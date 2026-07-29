@@ -1,7 +1,4 @@
-import graph from './cv-graph.json';
-import type { CvGraphData, CvGraphNode } from '$lib/types/cv-graph';
-
-const data = graph as CvGraphData;
+import data from './data.json';
 
 /** Solid colours keyed by node type — stand-ins for real imagery for now. */
 export const TYPE_COLORS: Record<string, string> = {
@@ -30,7 +27,7 @@ export type GalleryItem = {
 	color: string;
 };
 
-function toItem(node: CvGraphNode): GalleryItem {
+function toItem(node: any): GalleryItem {
 	return {
 		id: node.id,
 		title: node.title,
@@ -48,7 +45,7 @@ function toItem(node: CvGraphNode): GalleryItem {
 	};
 }
 
-export const galleryItems: GalleryItem[] = data.nodes
+export const galleryItems: GalleryItem[] = (data as any[])
 	.map(toItem)
 	.sort((a, b) => b.year - a.year);
 
