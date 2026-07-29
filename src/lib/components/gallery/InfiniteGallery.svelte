@@ -4,6 +4,7 @@
 	import { base } from '$app/paths';
 	import gsap from 'gsap';
 	import Observer from 'gsap/Observer';
+	import type { ScreenPoint } from '$lib/gallery/sphereScene';
 	import type { GalleryItem } from '$lib/data/gallery';
 
 	let { items }: { items: GalleryItem[] } = $props();
@@ -21,16 +22,16 @@
 	let bubbleCtx: gsap.Context | undefined;
 	let pointerDown: { x: number; y: number; t: number; item: GalleryItem } | null = null;
 
-	function handleSelect(item: GalleryItem, event: MouseEvent | KeyboardEvent) {
+	function handleSelect(item: GalleryItem, origin: ScreenPoint | KeyboardEvent) {
 		if (transitioning) return;
 		transitioning = true;
 
 		let x = window.innerWidth / 2;
 		let y = window.innerHeight / 2;
 
-		if (event instanceof MouseEvent) {
-			x = event.clientX;
-			y = event.clientY;
+		if ('x' in origin) {
+			x = origin.x;
+			y = origin.y;
 		}
 
 		const diag = Math.hypot(window.innerWidth, window.innerHeight);
@@ -72,7 +73,7 @@
 		pointerDown = null;
 
 		if (moved < TAP_MOVE_THRESHOLD && dt < TAP_MAX_DURATION) {
-			handleSelect(item, event);
+			handleSelect(item, { x: event.clientX, y: event.clientY });
 		}
 	}
 
