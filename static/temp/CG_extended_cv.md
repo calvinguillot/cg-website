@@ -105,6 +105,33 @@ Spearheading the development of a portfolio of high-performance websites and mob
 
 ---
 
+### Mechanical Designer | Photoboiler
+*2026 – Present*
+
+Designing and building mechanical parts for Photoboiler, a computer vision company
+
+*Technologies: Fusion 360, 3D printing, laser cutting, CNC milling.*
+
+---
+
+### Workshop Instructor | PulseIndex
+*2026 – Present*
+
+Instructing workshop on the use of TouchDesigner for real-time audio-visual installations.
+
+*Technologies: TouchDesigner, Resolume, MadMapper, DMX, GLSL (shader programming), Python.*
+
+---
+
+### Lecturer | Kristiania University of Applied Sciences
+*2026*
+
+Instructing workshop on the use of TouchDesigner for real-time audio-visual installations.
+
+*Technologies: TouchDesigner, Resolume, MadMapper, DMX, GLSL (shader programming), Python.*
+
+---
+
 ### ARTS Lecturer | Aalto University
 *2024–2025 | Espoo, Finland*
 
