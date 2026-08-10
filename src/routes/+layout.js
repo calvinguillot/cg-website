@@ -6,7 +6,7 @@ export const prerender = true;
 export function load() {
 	const baseMetaTags = defineBaseMetaTags({
 		titleTemplate: `%s | ${SITE_NAME}`,
-		title: 'Art Portfolio',
+		title: 'Portfolio',
 		description:
 			'Art portfolio of Calvin Guillot — new media artist and creative technologist based in Helsinki.',
 		canonical: SITE_URL,

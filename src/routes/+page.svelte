@@ -12,8 +12,8 @@
 			<section class="flex gap-6 sm:gap-10" aria-labelledby="year-{group.year}">
 				<h2
 					id="year-{group.year}"
-					class="shrink-0 self-start text-sm font-medium tracking-wide text-zinc-500 dark:text-zinc-400"
-					style="writing-mode: vertical-rl; transform: rotate(180deg);"
+					class="shrink-0 self-start text-sm leading-none font-normal tracking-wide text-zinc-500 dark:text-zinc-400"
+					style="writing-mode: sideways-lr;"
 				>
 					{group.label}
 				</h2>

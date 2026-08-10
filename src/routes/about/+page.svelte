@@ -13,25 +13,44 @@
 		class="mb-8 inline-block text-sm text-zinc-500 hover:underline dark:text-zinc-400">Back</a
 	>
 
-	<div class="mb-10">
+	<div class="flex flex-col items-center text-center sm:items-start sm:text-left">
 		<img
 			src="/pp.webp"
 			alt="Calvin Guillot"
-			class="h-40 w-40 object-cover sm:h-48 sm:w-48"
-			width="192"
-			height="192"
+			class="mb-8 h-64 w-64 object-cover sm:h-80 sm:w-80"
+			width="320"
+			height="320"
 		/>
-	</div>
 
-	<article
-		class="prose max-w-none prose-zinc dark:prose-invert
+		<article
+			class="prose max-w-none prose-zinc dark:prose-invert
 			prose-headings:font-medium prose-headings:tracking-tight
-			prose-a:text-zinc-900 prose-a:underline dark:prose-a:text-zinc-100"
-	>
-		{#if typeof source === 'string'}
-			<SvelteMarkdown {source} />
-		{:else}
-			<p>Content not available.</p>
-		{/if}
-	</article>
+			prose-a:text-zinc-900 prose-a:underline dark:prose-a:text-zinc-100
+			prose-img:rounded-none"
+		>
+			{#if typeof source === 'string'}
+				<SvelteMarkdown {source} />
+			{:else}
+				<p>Content not available.</p>
+			{/if}
+		</article>
+
+		<div
+			class="mt-10 flex items-center gap-6 text-base text-zinc-700 sm:text-lg dark:text-zinc-300"
+		>
+			<a
+				href="/CG_CV_Extended_0726.pdf"
+				target="_blank"
+				rel="noopener noreferrer"
+				class="hover:underline">CV</a
+			>
+			<a
+				href="https://www.instagram.com/cgxatlas/"
+				target="_blank"
+				rel="noopener noreferrer"
+				class="hover:underline">Instagram</a
+			>
+			<a href="mailto:hello@calvinguillot.com" class="hover:underline">Email</a>
+		</div>
+	</div>
 </div>

@@ -7,7 +7,7 @@ export function load() {
 	const groups = groupProjectsByYear(projects);
 	const pageMetaTags = definePageMetaTags(
 		staticPageMetaTags({
-			title: 'Art Portfolio',
+			title: 'Portfolio',
 			description:
 				'Art portfolio of Calvin Guillot — new media artist and creative technologist based in Helsinki. Projects grouped by year.',
 			path: '/'

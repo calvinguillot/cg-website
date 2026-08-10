@@ -1,16 +1,4 @@
-# Calvin Guillot Suárez
-
-**Creative Technologist | New Media Artist | Full Stack Developer**
-
-- **Email:** [hello@calvinguillot.com](mailto:hello@calvinguillot.com)
-- **LinkedIn:** [linkedin.com/in/calvinguillot](https://www.linkedin.com/in/calvinguillot/)
-- **Social:** [@cgxatlas](https://www.instagram.com/cgxatlas/)
-- **Location:** Helsinki, Finland
-- **Origin:** Bogotá, Colombia
-
----
-
-## Professional Summary
+# About
 
 Multidisciplinary artist, creative technologist, and engineer from Bogotá, Colombia, based in Helsinki, Finland. Dual master's degrees in New Media Arts and Automation Engineering from Aalto University, plus a Bachelor's in Electronics. Over a decade of practice spanning interactive installations, generative AI, live audiovisual performance, VR/XR, web development, physical computing, and academic research.
 

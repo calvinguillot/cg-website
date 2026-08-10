@@ -14,7 +14,7 @@
 		class="mb-8 inline-block text-sm text-zinc-500 hover:underline dark:text-zinc-400">Back</a
 	>
 
-	<header class="mb-10">
+	<!-- <header class="mb-10">
 		<p class="mb-2 text-sm text-zinc-500 dark:text-zinc-400">
 			{project.year === 'pre-2021' ? 'Before 2021' : project.year}
 			{#if project.location}
@@ -24,7 +24,7 @@
 		<h1 class="text-2xl font-medium tracking-tight text-zinc-900 sm:text-3xl dark:text-zinc-100">
 			{project.title}
 		</h1>
-	</header>
+	</header> -->
 
 	<article
 		class="prose max-w-none prose-zinc dark:prose-invert
