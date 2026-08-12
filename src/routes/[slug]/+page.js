@@ -30,7 +30,6 @@ export function load({ params }) {
 	}
 
 	const canonical = buildCanonical(`/${project.url}`);
-	const ogImage = projectOgImage(project.image);
 
 	const pageMetaTags = definePageMetaTags({
 		title: project.title,
@@ -40,8 +39,7 @@ export function load({ params }) {
 			type: 'article',
 			url: canonical,
 			title: `${project.title} | ${SITE_NAME}`,
-			description: project.description,
-			images: [{ url: ogImage, width: 1200, height: 630, alt: project.title }]
+			description: project.description
 		}
 	});
 

@@ -1,29 +1,58 @@
 [
 	{
+		"title": "The Oracle",
+		"year": "2026",
+		"url": "the-oracle",
+		"location": "Helsinki, Finland",
+		"description": "Large-scale audiovisual installation exploring the relationship between humans and the internet.",
+		"file": "2026/the-oracle.md"
+	},
+	{
+		"title": "Photoboiler",
+		"year": "2026",
+		"url": "photoboiler",
+		"location": "Espoo, Finland",
+		"description": "Design and manufacture of a metal and 3d printed case for a computer visoin system.",
+		"file": "2026/photoboiler.md"
+	},
+	{
+		"title": "Fiber Dance",
+		"year": "2026",
+		"url": "fiber-dance",
+		"location": "Helsinki, Finland",
+		"description": "Video production of a short film exploring the physcality of natural fibers in human form.",
+		"file": "2026/fiber-dance.md"
+	},
+	{
+		"title": "Dome Dreaming Festival / Takeoff",
+		"year": "2026",
+		"url": "dome-dreaming-festival-takeoff",
+		"location": "Stockholm, Sweden",
+		"description": "Participation in the Dome Dreaming Festival, a festival of large scale projection mapping and immersive installations.",
+		"file": "2026/dome-dreaming-festival.md"
+	},
+	{
 		"title": "Kotimaan Teknokatsaus XVI",
 		"year": "2026",
 		"url": "kotimaan-teknokatsaus-xvi",
 		"location": "Finland",
 		"description": "Participation in the 2026 edition of Kotimaan Teknokatsaus, a recurring review of technology culture and practice in Finland.",
-		"image": null,
 		"file": "2026/kotimaan-teknokatsaus-xvi.md"
 	},
 	{
 		"title": "Healing",
-		"year": "2025",
+		"year": "2026",
 		"url": "healing",
 		"location": "Helsinki, Finland",
 		"description": "Approximately twenty pen-plotter prints on ink and paper — a personal reset through making after a tumultuous year.",
-		"image": null,
-		"file": "2025/healing.md"
+		"file": "2026/healing.md"
 	},
 	{
-		"title": "Rauhankone — Ekho Collective",
+		"title": "Rauhankone",
 		"year": "2025",
 		"url": "rauhankone",
 		"location": "Helsinki / Oulu, Finland",
 		"description": "Immersive multidisciplinary media installation exploring peace as a dynamic process, produced for Oulu European Capital of Culture 2026.",
-		"image": null,
 		"file": "2025/rauhankone.md"
 	},
 	{
@@ -32,196 +61,174 @@
 		"url": "unframed-ticas",
 		"location": "Tartu, Estonia / Tampere, Finland",
 		"description": "AR mobile experience porting Carlosverse identity portraits into physical space, developed during a mini-residency in Tartu.",
-		"image": null,
 		"file": "2025/unframed-ticas.md"
 	},
 	{
-		"title": "Consumed — Art for All Festival",
+		"title": "Consumed",
 		"year": "2025",
 		"url": "consumed",
 		"location": "Itäkeskus, Helsinki, Finland",
 		"description": "Video installation exploring unrestricted consumption through simulated geometry amalgamated with aerial photography of Eastern Helsinki shopping centres.",
-		"image": null,
 		"file": "2025/consumed.md"
 	},
 	{
-		"title": "Outsider / Carlosverse — Outsider Art Festival 2025",
+		"title": "Outsider / Carlosverse",
 		"year": "2025",
 		"url": "outsider-carlosverse",
 		"location": "Helsinki, Finland",
 		"description": "10-minute video installation of hundreds of AI-generated Carlos variations with synthesised voice, presented at Outsider Art Festival 2025.",
-		"image": null,
 		"file": "2025/outsider-carlosverse.md"
 	},
 	{
-		"title": "Computer Vision — Expo 2025 Osaka",
+		"title": "Computer Vision",
 		"year": "2025",
 		"url": "computer-vision-expo",
 		"location": "Osaka, Japan",
 		"description": "Short film on the gap between lived experience and digitisation, projected at 25 × 8 m for Expo 2025 Shining Hat opening in Osaka.",
-		"image": null,
 		"file": "2025/computer-vision-expo.md"
 	},
 	{
-		"title": "Kraftlaus — SÍM Residency, Reykjavik",
+		"title": "Kraftlaus",
 		"year": "2025",
 		"url": "kraftlaus",
 		"location": "Korpúlfsstaðir, Reykjavik, Iceland",
 		"description": "Site-specific audiovisual interactive installation exploring the relationship between humans and glaciers, produced during a 2-month SÍM residency.",
-		"image": null,
 		"file": "2025/kraftlaus.md"
 	},
 	{
-		"title": "Off the Wall — Aavistus Festival",
+		"title": "Off the Wall",
 		"year": "2024",
 		"url": "off-the-wall",
 		"location": "Helsinki, Finland",
 		"description": "Large-scale audiovisual screening programme for Aavistus Festival 2024, curated and produced with generative visual identity.",
-		"image": null,
 		"file": "2024/off-the-wall.md"
 	},
 	{
-		"title": "Telar — Aalto University Väre",
+		"title": "Telar",
 		"year": "2024",
 		"url": "telar",
 		"location": "Espoo, Finland",
 		"description": "Site-specific paper sculpture installation of receipt strips hung between building wings, with density controlled by noise functions.",
-		"image": null,
 		"file": "2024/telar.md"
 	},
 	{
-		"title": "Helen — Electric Cabinet Street Art",
+		"title": "Helen",
 		"year": "2024",
 		"url": "helen",
 		"location": "Helsinki, Finland",
 		"description": "Ongoing collaboration with Helen Oy painting electric cabinets across Helsinki with abstract and neoclassical stencil work since 2018.",
-		"image": null,
 		"file": "2024/helen.md"
 	},
 	{
-		"title": "Real Reality — ACRE, Espoo",
+		"title": "Real Reality",
 		"year": "2024",
 		"url": "real-reality",
 		"location": "Espoo, Finland",
 		"description": "Immersive VR experience combining Gaussian Splatting scene capture with GenAI-generated art in real time via TouchDesigner.",
-		"image": null,
 		"file": "2024/real-reality.md"
 	},
 	{
-		"title": "Lala Salama Aurinko — Music Video",
+		"title": "Lala Salama Aurinko",
 		"year": "2024",
 		"url": "lala-salama-aurinko",
 		"location": "Helsinki, Finland",
 		"description": "Music video for Lala Salama re-imagining band travel footage through AI to evoke the instability of memory.",
-		"image": null,
 		"file": "2024/lala-salama-aurinko.md"
 	},
 	{
-		"title": "Rottien Pyhimys — Greta Tuotanto",
+		"title": "Rottien Pyhimys",
 		"year": "2024",
 		"url": "rottien-pyhimys",
 		"location": "Helsinki, Finland",
 		"description": "Opera multi-channel video and set design restoring historical church murals with AI for a musical theatre piece based on Anneli Kanto.",
-		"image": null,
 		"file": "2024/rottien-pyhimys.md"
 	},
 	{
-		"title": "VJ for e30v — Entropy RY",
+		"title": "VJ for e30v",
 		"year": "2024",
 		"url": "vj-e30v",
 		"location": "Finland",
 		"description": "Live VJ set exploring real-time generative AI aesthetics within TouchDesigner at Entropy RY's 30th-year celebration.",
-		"image": null,
 		"file": "2024/vj-e30v.md"
 	},
 	{
-		"title": "Tonni YLE — Yleisradio Oy",
+		"title": "Tonni YLE",
 		"year": "2024",
 		"url": "tonni-yle",
 		"location": "Helsinki, Finland",
 		"description": "Art direction and AI production of demo videos for YLE Finland using Tonnin Seteli as source material.",
-		"image": null,
 		"file": "2024/tonni-yle.md"
 	},
 	{
-		"title": "VJ for Wild Perra — Tokyo RY, Aalto University",
+		"title": "VJ for Wild Perra",
 		"year": "2023",
 		"url": "vj-wild-perra",
 		"location": "Helsinki, Finland",
 		"description": "Live VJ performance with Wild Perra at the annual Tokyo RY party at Aalto University.",
-		"image": null,
 		"file": "2023/vj-wild-perra.md"
 	},
 	{
-		"title": "Dresses — Generative Art with Pen Plotter",
+		"title": "Dresses",
 		"year": "2023",
 		"url": "dresses",
 		"location": "Helsinki, Finland",
 		"description": "Series of generative art dresses produced with p5.js algorithms and plotted on a pen plotter adapted from an Ender 3.",
-		"image": null,
 		"file": "2023/dresses.md"
 	},
 	{
-		"title": "Yötön Yö — Kielo Dance Company",
+		"title": "Yötön Yö",
 		"year": "2023",
 		"url": "yoton-yo",
 		"location": "Helsinki, Finland",
 		"description": "Art direction of video production for ballet works celebrating Sibelius' Sixth Symphony centenary at Tanssin Talo.",
-		"image": null,
 		"file": "2023/yoton-yo.md"
 	},
 	{
-		"title": "Takeoff — UTM EU / Kinomural",
+		"title": "Takeoff",
 		"year": "2023",
 		"url": "takeoff",
 		"location": "Espoo / Tartu / Wroclaw / Brussels",
 		"description": "360° planetarium audiovisual production for Urban Travel Machines; Kinomural 2023 Open Call winner.",
-		"image": null,
 		"file": "2023/takeoff.md"
 	},
 	{
-		"title": "Sonorama R-Bus — Helsinki Art Museum (HAM)",
+		"title": "Sonorama R-Bus",
 		"year": "2023",
 		"url": "sonorama-r-bus",
 		"location": "Helsinki, Finland",
 		"description": "Master's thesis project: an evolutionary sonic Artificial Life installation blending physarum simulation, NEAT-guided neural networks and live urban audio.",
-		"image": null,
 		"file": "2023/sonorama-r-bus.md"
 	},
 	{
-		"title": "Carlosverse — Identity Exhibition",
+		"title": "Carlosverse",
 		"year": "2023",
 		"url": "carlosverse",
 		"location": "Helsinki, Finland",
 		"description": "AI identity exploration of 600 distinct images from a custom model trained on Carlos, later adapted for Outsider Festival and Unframed Ticas.",
-		"image": null,
 		"file": "2023/carlosverse.md"
 	},
 	{
-		"title": "Ihmisen Jälkeen — Finnish Chamber Opera",
+		"title": "Ihmisen Jälkeen",
 		"year": "2023",
 		"url": "ihmisen-jalkeen",
 		"location": "Helsinki, Finland",
 		"description": "Video production for a posthumanist chamber opera, ageing cast members with custom-trained AI models.",
-		"image": null,
 		"file": "2023/ihmisen-jalkeen.md"
 	},
 	{
-		"title": "VJ for Tokyo — Aalto University",
+		"title": "VJ for Tokyo",
 		"year": "2022",
 		"url": "vj-tokyo",
 		"location": "Helsinki, Finland",
 		"description": "Live VJ performance at the Tokyo RY annual event at Aalto University.",
-		"image": null,
 		"file": "2022/vj-tokyo.md"
 	},
 	{
-		"title": "Corrugations — Origami & Paper Studies",
+		"title": "Corrugations",
 		"year": "2022",
 		"url": "corrugations",
 		"location": "Finland",
 		"description": "Deep exploration of origami and paper corrugation with Paul Jackson, from tessellations to crumpling and compliant mechanisms.",
-		"image": null,
 		"file": "2022/corrugations.md"
 	},
 	{
@@ -230,115 +237,102 @@
 		"url": "vj-rosa-jules",
 		"location": "Helsinki, Finland",
 		"description": "Live VJ performance for Rosa Jules' event in Helsinki.",
-		"image": null,
 		"file": "2022/vj-rosa-jules.md"
 	},
 	{
-		"title": "Invisible Lines — Dual Projection Installation",
+		"title": "Invisible Lines",
 		"year": "2022",
 		"url": "invisible-lines",
 		"location": "Finland",
 		"description": "Dual projection installation responding to the Ukraine-Russia war — serene nature facing burning destruction across an invisible border.",
-		"image": null,
 		"file": "2022/invisible-lines.md"
 	},
 	{
-		"title": "Explainable AI — Master's Thesis (MEng)",
+		"title": "Explainable AI",
 		"year": "2022",
 		"url": "explainable-ai",
 		"location": "Aalto University & FCAI, Espoo, Finland",
 		"description": "Human-in-the-loop system for improving deep learning explainability via Bayesian optimization of SHAP, segmentation, and classifier hyperparameters.",
-		"image": null,
 		"file": "2022/explainable-ai.md"
 	},
 	{
-		"title": "Stranded Foundations — Mural, Space 21, Otaniemi",
+		"title": "Stranded Foundations",
 		"year": "2022",
 		"url": "stranded-foundations",
 		"location": "Otaniemi, Espoo, Finland",
 		"description": "Lead artist for a ~6×3 m mural generated from Perlin noise strand algorithms for Space 21 in Otaniemi.",
-		"image": null,
 		"file": "2022/stranded-foundations.md"
 	},
 	{
-		"title": "Pixel — Kinetic Origami Display",
+		"title": "Pixel",
 		"year": "2022",
 		"url": "pixel",
 		"location": "Finland",
 		"description": "Prototype mechanical display of kinetic origami pixels that open and close to represent greyscale values.",
-		"image": null,
 		"file": "2022/pixel.md"
 	},
 	{
-		"title": "Memoranda — Interactive Performance",
+		"title": "Memoranda",
 		"year": "2021",
 		"url": "memoranda",
 		"location": "Katugalleria Mutteri, Helsinki, Finland",
 		"description": "Interactive performance where participants shared memories reinterpreted in real time as short audiovisual pieces.",
-		"image": null,
 		"file": "2021/memoranda.md"
 	},
 	{
-		"title": "Lamp — Reed and 3D Print Lamp",
+		"title": "Lamp",
 		"year": "2021",
 		"url": "lamp",
 		"location": "Helsinki, Finland",
 		"description": "Custom lamp fabricated from dried reed sticks woven with jute fibre around a 3D-printed PLA core.",
-		"image": null,
 		"file": "2021/lamp.md"
 	},
 	{
-		"title": "Trillium — Minimal Surface Sculpture",
+		"title": "Trillium",
 		"year": "2021",
 		"url": "trillium",
 		"location": "ACRE, Espoo, Finland",
 		"description": "Large-scale parametric willow and jute sculpture modelled as a minimal surface designed to decay with time.",
-		"image": null,
 		"file": "2021/trillium.md"
 	},
 	{
-		"title": "Fields — Perlin Noise Generative Art",
+		"title": "Fields",
 		"year": "2021",
 		"url": "fields",
 		"location": "Online / p5.js",
 		"description": "Generative art series exploring Perlin noise fields in p5.js, with colours associated with states of feeling.",
-		"image": null,
 		"file": "2021/fields.md"
 	},
 	{
-		"title": "Birds — Boids Simulation",
+		"title": "Birds",
 		"year": "2020",
 		"url": "birds",
 		"location": "p5.js",
 		"description": "Interactive p5.js simulation of emergent flocking behaviour using Craig Reynolds' Boids algorithm with quadTree optimisation.",
-		"image": null,
 		"file": "2020/birds.md"
 	},
 	{
-		"title": "Math — Generative Art Explorations",
+		"title": "Math",
 		"year": "2020",
 		"url": "math",
 		"location": "Various",
 		"description": "Collection of mathematical and generative art explorations using p5.js and WebGL — noise, geometry, simulation, and visualisation.",
-		"image": null,
 		"file": "2020/math.md"
 	},
 	{
-		"title": "Paintings — Traditional & Street Art",
+		"title": "Paintings",
 		"year": "2020",
 		"url": "paintings",
 		"location": "Ongoing",
 		"description": "Traditional painting practice alongside street art and mural work, using a code-to-paper-to-painting methodology.",
-		"image": null,
 		"file": "2020/paintings.md"
 	},
 	{
-		"title": "Various — Traditional & Street Art",
+		"title": "Various",
 		"year": "2020",
 		"url": "variations",
 		"location": "Ongoing",
 		"description": "Generative art series exploring variations on a theme, using a code-to-paper-to-painting methodology.",
-		"image": null,
-		"file": "2020/variations.md"
+		"file": "2020/various.md"
 	}
 ]

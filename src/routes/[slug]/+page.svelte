@@ -16,7 +16,7 @@
 
 	<!-- <header class="mb-10">
 		<p class="mb-2 text-sm text-zinc-500 dark:text-zinc-400">
-			{project.year === 'pre-2021' ? 'Before 2021' : project.year}
+			{project.year}
 			{#if project.location}
 				<span aria-hidden="true"> · </span>{project.location}
 			{/if}

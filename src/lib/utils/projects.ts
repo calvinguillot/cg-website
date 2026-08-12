@@ -4,7 +4,6 @@ export type Project = {
 	url: string;
 	location: string;
 	description: string;
-	image: string | null;
 	file: string;
 };
 
@@ -14,18 +13,13 @@ export type YearGroup = {
 	projects: Project[];
 };
 
-function yearLabel(year: string): string {
-	return year === 'pre-2021' ? 'Before 2021' : year;
-}
-
 function yearSortKey(year: string): number {
-	if (year === 'pre-2021') return -Infinity;
 	const n = Number(year);
 	return Number.isFinite(n) ? n : -Infinity;
 }
 
 /**
- * Group projects by year, newest first. `pre-2021` sorts last.
+ * Group projects by year, newest first.
  */
 export function groupProjectsByYear(projects: Project[]): YearGroup[] {
 	const map = new Map<string, Project[]>();
@@ -40,7 +34,7 @@ export function groupProjectsByYear(projects: Project[]): YearGroup[] {
 		.sort(([a], [b]) => yearSortKey(b) - yearSortKey(a))
 		.map(([year, yearProjects]) => ({
 			year,
-			label: yearLabel(year),
+			label: year,
 			projects: yearProjects
 		}));
 }

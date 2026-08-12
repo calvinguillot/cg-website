@@ -52,7 +52,6 @@ export function staticPageMetaTags({
 			url: canonical,
 			title: `${title} | ${SITE_NAME}`,
 			description,
-			images: [{ url: ogImage, width: 1200, height: 630, alt: title }]
 		}
 	};
 }
