@@ -13,15 +13,7 @@
 		class="mb-8 inline-block text-sm text-zinc-500 hover:underline dark:text-zinc-400">Back</a
 	>
 
-	<div class="flex flex-col items-center text-center sm:items-start sm:text-left">
-		<img
-			src="/pp.webp"
-			alt="Calvin Guillot"
-			class="mb-8 h-64 w-64 object-cover sm:h-80 sm:w-80"
-			width="320"
-			height="320"
-		/>
-
+	<div class="flex flex-col items-center text-left sm:items-start sm:text-left">
 		<article
 			class="prose max-w-none prose-zinc dark:prose-invert
 			prose-headings:font-medium prose-headings:tracking-tight
