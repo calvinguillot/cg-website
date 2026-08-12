@@ -2,8 +2,8 @@
 
 ![Profile Picture](../../pp.webp)
 
-Multidisciplinary artist, creative technologist, and engineer from Bogotá, Colombia, based in Helsinki, Finland. Dual master's degrees in New Media Arts and Automation Engineering from Aalto University, plus a Bachelor's in Electronics. Over a decade of practice spanning interactive installations, generative AI, live audiovisual performance, VR/XR, web development, physical computing, and academic research.
+Calvin Guillot is a multidisciplinary artist and creative technologist from Colombia, based in Helsinki, Finland. Through visual stories, interactive installations, immersive experiences, and large-scale pieces, he aims to uncover new ways to engage with the world around us and seeks to minimise the ego of the audience by exploring the sublime, infinitism, and identity.
 
-Works at the intersection of art, science, and technology — creating visual stories, interactive installations, immersive experiences, and large-scale pieces. Explores the sublime, infinitism, identity, emergent behaviour, and social conflict through mediums ranging from traditional painting and street art to generative AI, parametric sculpture, and artificial synthetic life.
+His goal is to push the boundaries of what is possible at the intersection of art, science, and technology. He believes that the context is the most fundamental part of an art piece, thus rather than a common style or idea, what governs his art is a common process of discovery, experimentation and play. His practice encompasses a range of mediums, from traditional painting and street art, generative art and AI, to parametric sculpture and artificial synthetic life. Natural processes, emergent behaviours, human connection, and social conflict are some of the things that inspire his work.
 
-Track record includes internationally exhibited artwork (Expo 2025 Osaka, Outsider Art Festival, Aavistus Festival, Night of the Arts Helsinki), award-winning audiovisual work (Kinomural 2023), EU-funded collaborative productions, and commercial software development for analytics platforms and SEO-driven web products.
+His art has been exhibited in the Nordics, several places in Europe, and Japan.
