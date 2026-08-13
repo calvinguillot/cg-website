@@ -6,4 +6,4 @@ Calvin Guillot is a multidisciplinary artist and creative technologist from Colo
 
 His goal is to push the boundaries of what is possible at the intersection of art, science, and technology. He believes that the context is the most fundamental part of an art piece, thus rather than a common style or idea, what governs his art is a common process of discovery, experimentation and play. His practice encompasses a range of mediums, from traditional painting and street art, generative art and AI, to parametric sculpture and artificial synthetic life. Natural processes, emergent behaviours, human connection, and social conflict are some of the things that inspire his work.
 
-His art has been exhibited in the Nordics, several places in Europe, and Japan.
+His art has been exhibited in the Nordics, several places in Europe, and Japan. He also works developer and engineer, and has taught computational art in several universities in the Nordics.

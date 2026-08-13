@@ -35,7 +35,7 @@
 		"title": "Kotimaan Teknokatsaus XVI",
 		"year": "2026",
 		"url": "kotimaan-teknokatsaus-xvi",
-		"location": "Finland",
+		"location": "Helsinki, Finland",
 		"description": "Participation in the 2026 edition of Kotimaan Teknokatsaus, a recurring review of technology culture and practice in Finland.",
 		"file": "2026/kotimaan-teknokatsaus-xvi.md"
 	},
@@ -67,7 +67,7 @@
 		"title": "Consumed",
 		"year": "2025",
 		"url": "consumed",
-		"location": "Itäkeskus, Helsinki, Finland",
+		"location": "Helsinki, Finland",
 		"description": "Video installation exploring unrestricted consumption through simulated geometry amalgamated with aerial photography of Eastern Helsinki shopping centres.",
 		"file": "2025/consumed.md"
 	},
@@ -91,7 +91,7 @@
 		"title": "Kraftlaus",
 		"year": "2025",
 		"url": "kraftlaus",
-		"location": "Korpúlfsstaðir, Reykjavik, Iceland",
+		"location": "Reykjavik, Iceland",
 		"description": "Site-specific audiovisual interactive installation exploring the relationship between humans and glaciers, produced during a 2-month SÍM residency.",
 		"file": "2025/kraftlaus.md"
 	},
@@ -147,7 +147,7 @@
 		"title": "VJ for e30v",
 		"year": "2024",
 		"url": "vj-e30v",
-		"location": "Finland",
+		"location": "Helsinki, Finland",
 		"description": "Live VJ set exploring real-time generative AI aesthetics within TouchDesigner at Entropy RY's 30th-year celebration.",
 		"file": "2024/vj-e30v.md"
 	},
@@ -187,7 +187,7 @@
 		"title": "Takeoff",
 		"year": "2023",
 		"url": "takeoff",
-		"location": "Espoo / Tartu / Wroclaw / Brussels",
+		"location": "Espoo, Finland / Tartu, Estonia / Wroclaw, Poland / Brussels, Belgium / Stockholm, Sweden",
 		"description": "360° planetarium audiovisual production for Urban Travel Machines; Kinomural 2023 Open Call winner.",
 		"file": "2023/takeoff.md"
 	},
@@ -227,7 +227,7 @@
 		"title": "Corrugations",
 		"year": "2022",
 		"url": "corrugations",
-		"location": "Finland",
+		"location": "Espoo, Finland",
 		"description": "Deep exploration of origami and paper corrugation with Paul Jackson, from tessellations to crumpling and compliant mechanisms.",
 		"file": "2022/corrugations.md"
 	},
@@ -243,7 +243,7 @@
 		"title": "Invisible Lines",
 		"year": "2022",
 		"url": "invisible-lines",
-		"location": "Finland",
+		"location": "Espoo, Finland",
 		"description": "Dual projection installation responding to the Ukraine-Russia war — serene nature facing burning destruction across an invisible border.",
 		"file": "2022/invisible-lines.md"
 	},
@@ -251,7 +251,7 @@
 		"title": "Explainable AI",
 		"year": "2022",
 		"url": "explainable-ai",
-		"location": "Aalto University & FCAI, Espoo, Finland",
+		"location": "Espoo, Finland",
 		"description": "Human-in-the-loop system for improving deep learning explainability via Bayesian optimization of SHAP, segmentation, and classifier hyperparameters.",
 		"file": "2022/explainable-ai.md"
 	},
@@ -259,7 +259,7 @@
 		"title": "Stranded Foundations",
 		"year": "2022",
 		"url": "stranded-foundations",
-		"location": "Otaniemi, Espoo, Finland",
+		"location": "Espoo, Finland",
 		"description": "Lead artist for a ~6×3 m mural generated from Perlin noise strand algorithms for Space 21 in Otaniemi.",
 		"file": "2022/stranded-foundations.md"
 	},
@@ -267,7 +267,7 @@
 		"title": "Pixel",
 		"year": "2022",
 		"url": "pixel",
-		"location": "Finland",
+		"location": "Espoo, Finland",
 		"description": "Prototype mechanical display of kinetic origami pixels that open and close to represent greyscale values.",
 		"file": "2022/pixel.md"
 	},
@@ -275,7 +275,7 @@
 		"title": "Memoranda",
 		"year": "2021",
 		"url": "memoranda",
-		"location": "Katugalleria Mutteri, Helsinki, Finland",
+		"location": "Helsinki, Finland",
 		"description": "Interactive performance where participants shared memories reinterpreted in real time as short audiovisual pieces.",
 		"file": "2021/memoranda.md"
 	},
@@ -291,7 +291,7 @@
 		"title": "Trillium",
 		"year": "2021",
 		"url": "trillium",
-		"location": "ACRE, Espoo, Finland",
+		"location": "Espoo, Finland",
 		"description": "Large-scale parametric willow and jute sculpture modelled as a minimal surface designed to decay with time.",
 		"file": "2021/trillium.md"
 	},
@@ -299,7 +299,7 @@
 		"title": "Fields",
 		"year": "2021",
 		"url": "fields",
-		"location": "Online / p5.js",
+		"location": "Espoo, Finland",
 		"description": "Generative art series exploring Perlin noise fields in p5.js, with colours associated with states of feeling.",
 		"file": "2021/fields.md"
 	},
@@ -307,7 +307,7 @@
 		"title": "Birds",
 		"year": "2020",
 		"url": "birds",
-		"location": "p5.js",
+		"location": "Espoo, Finland",
 		"description": "Interactive p5.js simulation of emergent flocking behaviour using Craig Reynolds' Boids algorithm with quadTree optimisation.",
 		"file": "2020/birds.md"
 	},
@@ -315,7 +315,7 @@
 		"title": "Math",
 		"year": "2020",
 		"url": "math",
-		"location": "Various",
+		"location": "Espoo, Finland",
 		"description": "Collection of mathematical and generative art explorations using p5.js and WebGL — noise, geometry, simulation, and visualisation.",
 		"file": "2020/math.md"
 	},
@@ -323,7 +323,7 @@
 		"title": "Paintings",
 		"year": "2020",
 		"url": "paintings",
-		"location": "Ongoing",
+		"location": "Helsinki, Finland",
 		"description": "Traditional painting practice alongside street art and mural work, using a code-to-paper-to-painting methodology.",
 		"file": "2020/paintings.md"
 	},
@@ -331,7 +331,7 @@
 		"title": "Various",
 		"year": "2020",
 		"url": "variations",
-		"location": "Ongoing",
+		"location": "Espoo, Finland",
 		"description": "Generative art series exploring variations on a theme, using a code-to-paper-to-painting methodology.",
 		"file": "2020/various.md"
 	}
