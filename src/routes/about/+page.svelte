@@ -26,23 +26,5 @@
 				<p>Content not available.</p>
 			{/if}
 		</article>
-
-		<div
-			class="mt-10 flex items-center gap-6 text-base text-zinc-700 sm:text-lg dark:text-zinc-300"
-		>
-			<a
-				href="/CG_CV_Extended_0726.pdf"
-				target="_blank"
-				rel="noopener noreferrer"
-				class="hover:underline">CV</a
-			>
-			<a
-				href="https://www.instagram.com/cgxatlas/"
-				target="_blank"
-				rel="noopener noreferrer"
-				class="hover:underline">Instagram</a
-			>
-			<a href="mailto:hello@calvinguillot.com" class="hover:underline">Email</a>
-		</div>
 	</div>
 </div>
