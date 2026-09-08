@@ -9,7 +9,7 @@
 
 	// Bare markdown attributes (`controls`) parse to '', which Svelte reads as false
 	// for boolean attributes and omits from the element.
-	const videoAttributes = (attributes: HtmlSnippetProps['attributes']) =>
+	const mediaAttributes = (attributes: HtmlSnippetProps['attributes']) =>
 		Object.fromEntries(
 			Object.entries(attributes ?? {}).map(([key, value]) => [key, value === '' ? true : value])
 		);
@@ -42,9 +42,14 @@
 		{#if typeof source === 'string'}
 			<SvelteMarkdown {source}>
 				{#snippet html_video({ attributes, children }: HtmlSnippetProps)}
-					<video class="my-8 h-auto w-full" {...videoAttributes(attributes)}>
+					<video class="my-8 h-auto w-full" {...mediaAttributes(attributes)}>
 						{@render children?.()}
 					</video>
+				{/snippet}
+				{#snippet html_audio({ attributes, children }: HtmlSnippetProps)}
+					<audio class="my-8 w-full" {...mediaAttributes(attributes)}>
+						{@render children?.()}
+					</audio>
 				{/snippet}
 			</SvelteMarkdown>
 		{:else}
