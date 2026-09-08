@@ -4,7 +4,7 @@
 
 For many reasons during 2020, I had some extra time at home. I got more and more into textures, started my explorations on more varied things with 3D printers, and returned a bit into embedded systems and sensors. Similarly, t-here- are many more sketches and projects from 2019 and before, but this ones are the ones that I want to put in here. Feel free to explore them and create your own versions of them. You can also see the code of some of them.
 
-![Firmament](../../../assets/2020/firmament.webp)
+![Firmament](../../../assets/2020/firmament-1.webp)
 
 Firmament:  Space is so infinitly big that we cannot understand it. We can only imagine it.
 
@@ -34,7 +34,7 @@ Pixel Camera: I really like the effect of pixel sorting. I wanted to be able to 
 
 Random Posters: I wanted to creter more varied textures using p5js. Using noise, recursive functions and some randomness. I created this posters as a way to have some place to use these textures. I think i wanted to say something with it, but I dont remember anymore.
 
-![Drips](../../../assets/2020/drips.webp)
+![Drips](../../../assets/2020/drips-1.webp)
 
 Drips: I wanted to let the paint flow. [Live version.](https://editor.p5js.org/calvinguillot/full/swieEtCK)
 
@@ -46,11 +46,11 @@ Sonoro: Visualizing sound is a very interesting thing. I wanted to create a few 
 
 Seismograph: Earthquakes are a natural phenomenon that can be very destructive. But in a way they are necessary for the planet to be alive. I wanted to capture the beauty of this natural phenomenon. This experiment showcases a seismograph that draws the movement of the earth.
 
-![Warped](../../../assets/2020/warped.webp)
+![Warped](../../../assets/2020/warped-1.webp)
 
 Warped: We can use noise is a way to create complex textures. A Perlin noise function that moves in X and Y and Z, We can use the return value from that function as an input to another Perlin noise function. We can do this as many times are our computer allows. The results produce soft edges, and water or cloud like images, although it can be used for so much more.
 
-![Ripples](../../../assets/2020/ripples.webp)
+![Ripples](../../../assets/2020/ripples-1.webp)
 
 Ripples: The smell of rain is something that we all can related to.
 

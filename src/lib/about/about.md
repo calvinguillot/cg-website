@@ -44,7 +44,8 @@ His art has been exhibited in the Nordics, several places in Europe, and Japan. 
 
 ### Fellowships, Residencies, Grants
 
-2026 MUU ry Artists' Association | Helsinki, Finland.\
+2027 Helsinki International Artists Association! HIAA Ry Member | Helsinki, Finland.\
+2026 MUU ry Artists' Association Member | Helsinki, Finland.\
 2025 Frame Contemporary Art Finland Grant | Expo 2025 Osaka, Japan.\
 2025 Unframed Residency | Ticas. Tartu, Estonia / Tampere, Finland.\
 2025 SÍM Residency | SÍM. Reykjavik, Iceland.\
