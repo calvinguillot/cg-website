@@ -8,11 +8,20 @@ I crafted a series of visual stories in which the actors were "aged" using custo
 
 ![Ihmisen Jälkeen 1](../../../assets/2023/post_1.webp)
 
-![Ihmisen Jälkeen 2](../../../assets/2023/post_2.webp)
+<video controls playsinline preload="metadata">
+  <source src="../../../assets/2023/post_video_1.webm" type="video/webm" />
+  Ihmisen Jälkeen Video 1
+</video>
 
-![Ihmisen Jälkeen 3](../../../assets/2023/post_3.webp)  
+<video controls playsinline preload="metadata">
+  <source src="../../../assets/2023/post_video_2.webm" type="video/webm" />
+  Ihmisen Jälkeen Video 2
+</video>
 
-![Ihmisen Jälkeen 4](../../../assets/2023/post_4.webp)
+<video controls playsinline preload="metadata">
+  <source src="../../../assets/2023/post_video_3.webm" type="video/webm" />
+  Ihmisen Jälkeen Video 3
+</video>
 
 You can read more at Helsingin Sanomat, Kone Foundation, and Teemu’s page.
 
