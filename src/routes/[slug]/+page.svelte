@@ -1,11 +1,18 @@
 <script lang="ts">
 	import { resolve } from '$app/paths';
-	import SvelteMarkdown from '@humanspeak/svelte-markdown';
+	import SvelteMarkdown, { type HtmlSnippetProps } from '@humanspeak/svelte-markdown';
 
 	let { data } = $props();
 
 	const project = $derived(data.project);
 	const source = $derived(data.source);
+
+	// Bare markdown attributes (`controls`) parse to '', which Svelte reads as false
+	// for boolean attributes and omits from the element.
+	const videoAttributes = (attributes: HtmlSnippetProps['attributes']) =>
+		Object.fromEntries(
+			Object.entries(attributes ?? {}).map(([key, value]) => [key, value === '' ? true : value])
+		);
 </script>
 
 <div class="mx-auto w-full max-w-3xl px-4 py-8 sm:px-6">
@@ -33,7 +40,13 @@
 			prose-img:rounded-none"
 	>
 		{#if typeof source === 'string'}
-			<SvelteMarkdown {source} />
+			<SvelteMarkdown {source}>
+				{#snippet html_video({ attributes, children }: HtmlSnippetProps)}
+					<video class="my-8 h-auto w-full" {...videoAttributes(attributes)}>
+						{@render children?.()}
+					</video>
+				{/snippet}
+			</SvelteMarkdown>
 		{:else}
 			<p>Content not available.</p>
 		{/if}
