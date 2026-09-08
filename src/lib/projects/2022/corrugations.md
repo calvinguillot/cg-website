@@ -9,14 +9,25 @@ All starts with just a blank piece of paper. Some forms are made of simple patte
 Special thanks to Elaine Banks for letting me cast her hand.
 
 ![Corrugations 1](../../../assets/2022/corr_1.webp)
+
 ![Corrugations 2](../../../assets/2022/corr_2.webp)
+
 ![Corrugations 3](../../../assets/2022/corr_3.webp)
+
 ![Corrugations 4](../../../assets/2022/corr_4.webp)
+
 ![Corrugations 5](../../../assets/2022/corr_5.webp)
+
 ![Corrugations 6](../../../assets/2022/corr_6.webp)
+
 ![Corrugations 7](../../../assets/2022/corr_7.webp)
+
 ![Corrugations 8](../../../assets/2022/corr_8.webp)
+
 ![Corrugations 9](../../../assets/2022/corr_9.webp)
+
 ![Corrugations 10](../../../assets/2022/corr_10.webp)
+
 ![Corrugations 11](../../../assets/2022/corr_11.webp)
+
 ![Corrugations 12](../../../assets/2022/corr_12.webp)

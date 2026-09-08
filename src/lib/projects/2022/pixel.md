@@ -7,12 +7,19 @@ My idea was to create a mechanical display made out of kinetic origami pixels. T
 At the beginning I wanted to have a screw that opened and closed the origami motif, but I quickly began experimenting wiht other materials, and possibilities. Eventually I realized I could 3D print the whole module. The final motif is a 3D printed compliant mechanism that uses threads to open and close. Perhaps in the future Ill continue making mechanical mirrors.
 
 ![Pixel Sketches](../../../assets/2022/pixel_sketch.webp)
+
 ![Pixel 1](../../../assets/2022/pixel_1.webp)
+
 ![Pixel 2](../../../assets/2022/pixel_2.webp)
+
 ![Pixel 3](../../../assets/2022/pixel_3.webp)
+
 ![Pixel 4](../../../assets/2022/pixel_4.webp)
+
 ![Pixel 5](../../../assets/2022/pixel_5.webp)
+
 ![Pixel 6](../../../assets/2022/pixel_6.webp)
+
 ![Pixel 7](../../../assets/2022/pixel_7.webp)
 
 <video controls playsinline preload="metadata">

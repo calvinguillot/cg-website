@@ -10,5 +10,7 @@ The association of art students at Aalto University, TOKYO RY, organizes a big p
 </video>
 
 ![VJ for Tokyo 1](../../../assets/2022/vjt_1.webp)
+
 ![VJ for Tokyo 2](../../../assets/2022/vjt_2.webp)
+
 ![VJ for Tokyo 3](../../../assets/2022/vjt_3.webp)

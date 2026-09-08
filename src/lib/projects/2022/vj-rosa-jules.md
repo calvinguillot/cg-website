@@ -15,5 +15,7 @@
 </video>
 
 ![VJ for Rosa 1](../../../assets/2022/vjr_1.webp)
+
 ![VJ for Rosa 2](../../../assets/2022/vjr_2.webp)
+
 ![VJ for Rosa 3](../../../assets/2022/vjr_3.webp)

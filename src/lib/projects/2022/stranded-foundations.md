@@ -9,9 +9,15 @@ I was rather sick during the installation, so unfortunately couldn’t participa
 You can watch a video of the process [here.](https://www.youtube.com/watch?v=5c9DtrB4PZQ)
 
 ![Stranded Foundations 1](../../../assets/2022/sf1_IMG_20220321_200426.webp)
+
 ![Stranded Foundations 2](../../../assets/2022/sf2_IMG_20220321_201743.webp)
+
 ![Stranded Foundations 3](../../../assets/2022/sf3_IMG_20220320_220235.webp)
+
 ![Stranded Foundations 4](../../../assets/2022/sf4_IMG_20220317_172108.webp)
+
 ![Stranded Foundations 5](../../../assets/2022/sf5_IMG_20220316_160703.webp)
+
 ![Stranded Foundations 6](../../../assets/2022/sf6_IMG_20220321_195436.webp)
+
 ![Stranded Foundations 7](../../../assets/2022/sf7_309A3790.webp)

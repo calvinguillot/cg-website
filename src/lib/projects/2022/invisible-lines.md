@@ -14,4 +14,5 @@ We (Calvin Guillot, [Margo Nowicka](https://margonowicka.com/),  Mathias Schach)
 </video>
 
 ![Invisible Lines 1](../../../assets/2022/lines1.webp)
+
 ![Invisible Lines 2](../../../assets/2022/lines2.webp)
