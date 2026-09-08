@@ -2,7 +2,7 @@
 
 2021 | Performance
 
-What are memories made of? Can we re-imagine them through the eyes of others? This is a project about listening and seeing. Participants are invited to enter the Katugalleria Mutteri in Helsinki, where they are asked to share some of their memeories, and we (Calvin Guillot,  Milja Komulainen,  Lucien Montandon) will reinterpret them and render a short audiovisual piece about these memories.
+What are memories made of? Can we re-imagine them through the eyes of others? This is a project about listening and seeing. Participants are invited to enter the Katugalleria Mutteri in Helsinki, where they are asked to share some of their memeories, and we (Calvin Guillot,  Milja Komulainen,  [Lucien Montandon](https://www.instagram.com/lucien_guy_montandon/)) will reinterpret them and render a short audiovisual piece about these memories.
 
 The piece was quite well recieved. Participants became quite open and vulnerable during the performance. Perhaps because the place was quite inviting, even in a cold winter night, perhaps because the intimacy of the concept.
 

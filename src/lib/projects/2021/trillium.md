@@ -6,7 +6,7 @@ We all are in a continuous process of evolution and transformation. Our ideas, f
 
 This is and exploration of the concept of maturing. The piece is a reflection on the idea that the only constant is life is change. We were inspired by natural symmetries and projective geometry. The willow sticks create a motif that reflect the dynamism of mathematics and nature. The whole structure is secured with jute thread, placed  on top a metal platform. The piece is design to decay with time, chage with seasons, and eventually completly breakdown.
 
-This project was a collaboration with Faezeh Sadeghi for Aalto University and ACRE. Below you can find pictures of the process, sketches and setup of the final piece.
+This project was a collaboration with [Faezeh Sadeghi](https://www.instagram.com/faezehsdg/) for Aalto University and ACRE. Below you can find pictures of the process, sketches and setup of the final piece.
 
 You can watch a video of the exhibition [here.](https://www.youtube.com/watch?v=h7KvW1eCWoE)
 
