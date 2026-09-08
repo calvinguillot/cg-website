@@ -1,6 +1,6 @@
 # Paintings
 
-2020 | Various techniques
+2017-2020 | Various techniques
 
 For many reasons during 2020, I had some extra time at home. I created paintings for some of my close friends during that summer. Similarly, some paintings and stencils I did during 2019 and before. There is no much before 2016. I lost some pictures and files, and I never took pictures of many things that I did. But it could be that maybe they are in some hard drive in Colombia or somewhere else.
 
