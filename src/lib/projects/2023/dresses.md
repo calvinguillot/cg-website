@@ -1,8 +1,16 @@
 # Dresses — Generative Art with Pen Plotter
 
-_2023 | Helsinki, Finland_
-_Ink on paper (pen plotter), 29.7 × 42.0 cm_
+2023 | Ink on Paper (Pen Plotter)
 
-Series of generative art dresses produced for and plotted on a pen plotter. The work began as a commercial exercise but evolved into something personal — representing feelings at the time. Created using p5.js algorithms and plotted via a pen plotter adapted from a Creality Ender 3.
+I wanted to create something to “sell” using a pen plotter. Quickly discovered that I had no interest in putting a price on the things I was feeling at the time. These generative art dresses, represent more than just and object for me. Thus, their value cannot be stated anymore.
 
-_Technologies: p5.js (generative art algorithms), pen plotter (Ender 3 + custom adapter designed in Fusion 360)._
+![Dresses 1](../../../assets/2023/dresses_1.webp)
+
+![Dresses 2](../../../assets/2023/dresses_2.webp)
+
+![Dresses 3](../../../assets/2023/dresses_3.webp)
+
+<video controls playsinline preload="metadata">
+  <source src="../../../assets/2023/dresses_video.mp4" type="video/mp4" />
+  Dresses Video
+</video>
