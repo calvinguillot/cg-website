@@ -40,6 +40,14 @@
 		"file": "2026/dome-dreaming-festival.md"
 	},
 	{
+		"title": "TouchDesigner Workshops",
+		"year": "2026",
+		"url": "touchdesigner-workshops",
+		"location": "Helsinki, Finland",
+		"description": "Workshops on TouchDesigner in Helsinki and Oslo.",
+		"file": "2026/touchdesigner-workshops.md"
+	},
+	{
 		"title": "Kotimaan Teknokatsaus XVI",
 		"year": "2026",
 		"url": "kotimaan-teknokatsaus-xvi",
@@ -198,6 +206,14 @@
 		"location": "Espoo, Finland / Tartu, Estonia / Wroclaw, Poland / Brussels, Belgium / Stockholm, Sweden",
 		"description": "360° planetarium audiovisual production for Urban Travel Machines; Kinomural 2023 Open Call winner.",
 		"file": "2023/takeoff.md"
+	},
+	{
+		"title": "VJ for Various",
+		"year": "2023",
+		"url": "vj-various",
+		"location": "Helsinki, Finland",
+		"description": "Live VJ performance at various events in Helsinki.",
+		"file": "2023/vj-various.md"
 	},
 	{
 		"title": "Sonorama R-Bus",

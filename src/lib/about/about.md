@@ -55,10 +55,10 @@ His art has been exhibited in the Nordics, several places in Europe, and Japan. 
 
 ### Publications, Press, Talks, Workshops, Other
 
-2026 Mechanical Engineer | Photoboiler. Espoo, Finland.\
+2026 Mechanical Engineer | Photoboiler Oy. Espoo, Finland.\
 2026 TouchDesigner Talk | Kristiania UAS. Oslo, Norway.\
 2026 TouchDesigner Workshop | Pulse Index. Helsinki, Finland.\
-2026 Developer | HoyHoldings. Helsinki, Finland.\
+2026 Developer | HoyHoldings Inc. Helsinki, Finland.\
 2025 Lecturer | Aalto University. Espoo, Finland.\
 2025 SÍM NCP Programme Artist Talk | SÍM Residency Iceland. Reykjavik, Iceland.\
 2023 New Media Master’s Programme Teacher Assistant | Aalto University. Espoo, Finland.\
