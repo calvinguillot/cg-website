@@ -1,8 +1,15 @@
 # Yötön Yö — Kielo Dance Company
 
-_October 2023 – November 2023 | Helsinki, Finland_
-_Ballet single-channel video performance, 8 × 5 m_
+2023 | Opera Single-channel Video
 
-Art director of video production for two small ballet/contemporary dance works by Kielo Dance Company at Tanssin Talo, celebrating the centenary of Sibelius' Sixth Symphony. Visuals explore the world of dreams across the different movements of the symphony, following the dancers. Co-created visuals with Merle Karp using real-time rendering, point clouds, generative and audio-reactive art, and sensor fusion.
+Yötön yö is an ensemble consisting of two small works, where evening fairy tales told in the movement language of ballet and contemporary dance take the viewer into the mysterious world of dreams. This project was develop by the [Kielo Dance Company](https://www.kielodancecompany.com/).   This piece follows Sibelius 6.1. "Kaiku"  which also celebrates the centenary of Jean Sibelius' sixth symphony by giving it a new interpretation. The melancholic, dramatic and hopeful themes that run through the continuous dialogue of the original work are still relevant in 2023.
 
-_Technologies: TouchDesigner, point clouds, generative art, audio reactivity, sensor fusion._
+[Merle Karp](https://merlekarp.fi/) and I did the visuals for the ballet piece. The core idea of the visuals was the exploration of dreams. The different scenes follow the different movements of the symphony and the dancers.
+
+More information can be found at Kielo’s [page.](https://www.tanssintalo.fi/ohjelma/kielo-dance-company-yoton-yo)
+
+![Yötön Yö 1](../../../assets/2023/yoton_1.webp)
+
+![Yötön Yö 2](../../../assets/2023/yoton_2.webp)
+
+![Yötön Yö 3](../../../assets/2023/yoton_3.webp)
