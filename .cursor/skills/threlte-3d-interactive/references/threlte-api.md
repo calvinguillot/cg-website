@@ -6,18 +6,19 @@ The root component that creates the WebGL renderer:
 
 ```svelte
 <Canvas
-  autoRender={true}
-  colorManagementEnabled={true}
-  colorSpace="srgb"
-  dpr={[1, 2]}
-  shadows={true}
-  toneMapping={THREE.ACESFilmicToneMapping}
+	autoRender={true}
+	colorManagementEnabled={true}
+	colorSpace="srgb"
+	dpr={[1, 2]}
+	shadows={true}
+	toneMapping={THREE.ACESFilmicToneMapping}
 >
-  <!-- Scene content -->
+	<!-- Scene content -->
 </Canvas>
 ```
 
 Props:
+
 - `autoRender` — auto-renders every frame (default: true)
 - `shadows` — enables shadow mapping
 - `dpr` — device pixel ratio range [min, max]
@@ -34,6 +35,7 @@ Props:
 ```
 
 Special props:
+
 - `position` — `[x, y, z]` or individual `position.x`, `position.y`, `position.z`
 - `rotation` — `[x, y, z]` in radians, or `rotation.x`, etc.
 - `scale` — `[x, y, z]` or single number for uniform scale
@@ -56,6 +58,7 @@ Threlte components support pointer events:
 ```
 
 Event object contains:
+
 - `e.object` — the Three.js object
 - `e.point` — intersection point (Vector3)
 - `e.distance` — distance from camera
@@ -93,24 +96,20 @@ const { renderer, scene, camera, size } = useThrelte();
 
 ```svelte
 <T.PerspectiveCamera makeDefault position={[5, 5, 5]}>
-  <OrbitControls
-    enableDamping
-    autoRotate={false}
-    minDistance={2}
-    maxDistance={20}
-    target={[0, 0, 0]}
-  />
+	<OrbitControls
+		enableDamping
+		autoRotate={false}
+		minDistance={2}
+		maxDistance={20}
+		target={[0, 0, 0]}
+	/>
 </T.PerspectiveCamera>
 ```
 
 ### Environment
 
 ```svelte
-<Environment
-  path="/textures/"
-  files="hdr-file.hdr"
-  isBackground={true}
-/>
+<Environment path="/textures/" files="hdr-file.hdr" isBackground={true} />
 ```
 
 ### Float
@@ -119,7 +118,7 @@ Adds floating animation:
 
 ```svelte
 <Float speed={2} floatIntensity={1} rotationIntensity={0.5}>
-  <T.Mesh>...</T.Mesh>
+	<T.Mesh>...</T.Mesh>
 </Float>
 ```
 
@@ -128,13 +127,7 @@ Adds floating animation:
 3D text using troika-three-text:
 
 ```svelte
-<Text
-  text="Hello World"
-  fontSize={0.5}
-  color="white"
-  anchorX="center"
-  anchorY="middle"
-/>
+<Text text="Hello World" fontSize={0.5} color="white" anchorX="center" anchorY="middle" />
 ```
 
 ### ContactShadows
@@ -142,11 +135,7 @@ Adds floating animation:
 Soft contact shadows on a plane:
 
 ```svelte
-<ContactShadows
-  opacity={0.5}
-  blur={2}
-  position.y={-0.5}
-/>
+<ContactShadows opacity={0.5} blur={2} position.y={-0.5} />
 ```
 
 ### Suspense
@@ -155,9 +144,9 @@ Loading boundary for async resources:
 
 ```svelte
 <Suspense>
-  {#snippet fallback()}
-    <LoadingSpinner />
-  {/snippet}
-  <ModelThatLoads />
+	{#snippet fallback()}
+		<LoadingSpinner />
+	{/snippet}
+	<ModelThatLoads />
 </Suspense>
 ```

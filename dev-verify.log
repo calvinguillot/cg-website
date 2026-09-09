@@ -1,0 +1,9 @@
+﻿
+> cg-website@7.0.1 dev
+> vite dev --port 5199
+
+
+  VITE v8.0.8  ready in 23056 ms
+
+  Γ₧£  Local:   http://localhost:5199/
+  Γ₧£  Network: use --host to expose

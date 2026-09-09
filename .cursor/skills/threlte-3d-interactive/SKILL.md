@@ -22,41 +22,45 @@ description: >
 ## Workflow: Creating a 3D Scene
 
 1. **Create a wrapper component** in `src/lib/components/three/`:
+
    ```svelte
    <!-- Scene.svelte -->
    <script lang="ts">
-     import { Canvas } from '@threlte/core';
-     import SceneContent from './SceneContent.svelte';
+   	import { Canvas } from '@threlte/core';
+   	import SceneContent from './SceneContent.svelte';
    </script>
 
    <Canvas>
-     <SceneContent />
+   	<SceneContent />
    </Canvas>
    ```
+
 2. **Create the scene content** in a separate component (keeps Canvas clean):
+
    ```svelte
    <!-- SceneContent.svelte -->
    <script lang="ts">
-     import { T } from '@threlte/core';
-     import { OrbitControls } from '@threlte/extras';
+   	import { T } from '@threlte/core';
+   	import { OrbitControls } from '@threlte/extras';
    </script>
 
    <T.PerspectiveCamera makeDefault position={[5, 5, 5]} fov={50}>
-     <OrbitControls enableDamping />
+   	<OrbitControls enableDamping />
    </T.PerspectiveCamera>
 
    <T.DirectionalLight position={[10, 10, 5]} intensity={1.5} />
    <T.AmbientLight intensity={0.3} />
 
    <T.Mesh>
-     <T.BoxGeometry args={[1, 1, 1]} />
-     <T.MeshStandardMaterial color="#ff6600" />
+   	<T.BoxGeometry args={[1, 1, 1]} />
+   	<T.MeshStandardMaterial color="#ff6600" />
    </T.Mesh>
    ```
+
 3. **Embed in a page** with a sized container:
    ```svelte
    <div class="h-svh w-full">
-     <Scene />
+   	<Scene />
    </div>
    ```
 4. **Verify:** open the page in the browser and confirm the scene renders
@@ -67,30 +71,31 @@ description: >
 1. **Attach event handlers** directly on `<T.Mesh>`:
    ```svelte
    <T.Mesh
-     onclick={(e) => handleClick(e)}
-     onpointerenter={() => hovered = true}
-     onpointerleave={() => hovered = false}
+   	onclick={(e) => handleClick(e)}
+   	onpointerenter={() => (hovered = true)}
+   	onpointerleave={() => (hovered = false)}
    >
-     <T.SphereGeometry args={[1, 32, 32]} />
-     <T.MeshStandardMaterial color={hovered ? '#ff0000' : '#ffffff'} />
+   	<T.SphereGeometry args={[1, 32, 32]} />
+   	<T.MeshStandardMaterial color={hovered ? '#ff0000' : '#ffffff'} />
    </T.Mesh>
    ```
 2. **For hover cursor changes**, set `document.body.style.cursor` in pointer events
 3. **For animations**, use the `useTask` hook from `@threlte/core`:
+
    ```svelte
    <script lang="ts">
-     import { useTask } from '@threlte/core';
-     import { DEG2RAD } from 'three/src/math/MathUtils.js';
+   	import { useTask } from '@threlte/core';
+   	import { DEG2RAD } from 'three/src/math/MathUtils.js';
 
-     let rotation = $state(0);
+   	let rotation = $state(0);
 
-     useTask((delta) => {
-       rotation += delta * 45 * DEG2RAD;
-     });
+   	useTask((delta) => {
+   		rotation += delta * 45 * DEG2RAD;
+   	});
    </script>
 
    <T.Mesh rotation.y={rotation}>
-     <!-- geometry + material -->
+   	<!-- geometry + material -->
    </T.Mesh>
    ```
 
@@ -98,21 +103,23 @@ description: >
 
 1. **Place model files** in `static/models/` (GLTF/GLB preferred)
 2. **Use the `useGltf` hook** from `@threlte/extras`:
+
    ```svelte
    <script lang="ts">
-     import { useGltf } from '@threlte/extras';
+   	import { useGltf } from '@threlte/extras';
 
-     const gltf = useGltf('/models/my-model.glb');
+   	const gltf = useGltf('/models/my-model.glb');
    </script>
 
    {#if $gltf}
-     <T is={$gltf.scene} />
+   	<T is={$gltf.scene} />
    {/if}
    ```
+
 3. **For complex models**, extract specific meshes:
    ```svelte
    {#if $gltf}
-     <T is={$gltf.nodes.MeshName} />
+   	<T is={$gltf.nodes.MeshName} />
    {/if}
    ```
 4. **Optimize models before importing:**
@@ -123,6 +130,7 @@ description: >
 ## Workflow: Custom Shaders
 
 1. **Create shader files** in `src/lib/shaders/`:
+
    ```glsl
    // fragment.glsl
    uniform float uTime;
@@ -134,26 +142,30 @@ description: >
      gl_FragColor = vec4(uColor * strength, 1.0);
    }
    ```
+
 2. **Use `T.ShaderMaterial`** with uniforms managed via `$state`:
+
    ```svelte
    <script lang="ts">
-     import { useTask } from '@threlte/core';
-     import vertexShader from '$lib/shaders/vertex.glsl?raw';
-     import fragmentShader from '$lib/shaders/fragment.glsl?raw';
-     import * as THREE from 'three';
+   	import { useTask } from '@threlte/core';
+   	import vertexShader from '$lib/shaders/vertex.glsl?raw';
+   	import fragmentShader from '$lib/shaders/fragment.glsl?raw';
+   	import * as THREE from 'three';
 
-     let time = $state(0);
-     useTask((delta) => { time += delta; });
+   	let time = $state(0);
+   	useTask((delta) => {
+   		time += delta;
+   	});
 
-     let uniforms = $derived({
-       uTime: { value: time },
-       uColor: { value: new THREE.Color('#ff6600') }
-     });
+   	let uniforms = $derived({
+   		uTime: { value: time },
+   		uColor: { value: new THREE.Color('#ff6600') }
+   	});
    </script>
 
    <T.Mesh>
-     <T.PlaneGeometry args={[2, 2, 32, 32]} />
-     <T.ShaderMaterial {vertexShader} {fragmentShader} {uniforms} />
+   	<T.PlaneGeometry args={[2, 2, 32, 32]} />
+   	<T.ShaderMaterial {vertexShader} {fragmentShader} {uniforms} />
    </T.Mesh>
    ```
 
@@ -177,18 +189,19 @@ Three.js requires the DOM. For adapter-static builds:
 
 - The `<Canvas>` component only renders on the client
 - If importing Three.js modules at the top level causes SSR errors, use dynamic imports:
+
   ```svelte
   <script lang="ts">
-    import { onMount } from 'svelte';
+  	import { onMount } from 'svelte';
 
-    let SceneComponent: typeof import('./Scene.svelte').default;
-    onMount(async () => {
-      SceneComponent = (await import('./Scene.svelte')).default;
-    });
+  	let SceneComponent: typeof import('./Scene.svelte').default;
+  	onMount(async () => {
+  		SceneComponent = (await import('./Scene.svelte')).default;
+  	});
   </script>
 
   {#if SceneComponent}
-    <SceneComponent />
+  	<SceneComponent />
   {/if}
   ```
 

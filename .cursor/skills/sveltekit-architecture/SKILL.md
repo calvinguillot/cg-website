@@ -45,28 +45,30 @@ description: >
    - UI primitives (Button, Card, etc.) → `src/lib/components/ui/`
 2. **Name the file** in PascalCase: `ComponentName.svelte`
 3. **Structure the component** using this order:
+
    ```svelte
    <script lang="ts">
-     // 1. Imports
-     // 2. Props via $props()
-     // 3. Local state via $state()
-     // 4. Derived values via $derived()
-     // 5. Effects (only if absolutely necessary)
-     // 6. Functions/handlers
+   	// 1. Imports
+   	// 2. Props via $props()
+   	// 3. Local state via $state()
+   	// 4. Derived values via $derived()
+   	// 5. Effects (only if absolutely necessary)
+   	// 6. Functions/handlers
    </script>
 
    <!-- Template -->
 
    <style>
-     /* Scoped styles (prefer TailwindCSS classes in template) */
+   	/* Scoped styles (prefer TailwindCSS classes in template) */
    </style>
    ```
+
 4. **Define props** with TypeScript interface:
    ```ts
    interface Props {
-     title: string;
-     variant?: 'primary' | 'secondary';
-     children: import('svelte').Snippet;
+   	title: string;
+   	variant?: 'primary' | 'secondary';
+   	children: import('svelte').Snippet;
    }
    let { title, variant = 'primary', children }: Props = $props();
    ```
@@ -79,20 +81,28 @@ description: >
    - Across unrelated components → use a shared `.svelte.ts` module
    - Server-safe (SSR-compatible) → prefer context over modules
 2. **For context-based state:**
+
    ```ts
    // src/lib/state/theme.svelte.ts
    import { createContext } from 'svelte';
 
    export const [getTheme, setTheme] = createContext<{ dark: boolean }>();
    ```
+
 3. **For module-based state** (client-only singletons):
+
    ```ts
    // src/lib/state/navigation.svelte.ts
    let isOpen = $state(false);
 
-   export function toggleNav() { isOpen = !isOpen; }
-   export function getNavState() { return isOpen; }
+   export function toggleNav() {
+   	isOpen = !isOpen;
+   }
+   export function getNavState() {
+   	return isOpen;
+   }
    ```
+
 4. **Never** use Svelte stores (`writable`, `readable`) — use `$state` runes instead
 
 ## Project Directory Structure
@@ -126,7 +136,7 @@ src/
 - For dynamic routes (`[slug]`), provide `entries()`:
   ```js
   export function entries() {
-    return [{ slug: 'project-a' }, { slug: 'project-b' }];
+  	return [{ slug: 'project-a' }, { slug: 'project-b' }];
   }
   ```
 - Use `import.meta.env.BASE_URL` for base path references when deploying to a subpath

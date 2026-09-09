@@ -26,9 +26,9 @@ description: >
 2. **Sketch the layout** using semantic HTML structure:
    ```svelte
    <main>
-     <section aria-labelledby="hero-heading">...</section>
-     <section aria-labelledby="projects-heading">...</section>
-     <section aria-labelledby="about-heading">...</section>
+   	<section aria-labelledby="hero-heading">...</section>
+   	<section aria-labelledby="projects-heading">...</section>
+   	<section aria-labelledby="about-heading">...</section>
    </main>
    ```
 3. **Build mobile layout first**, then add breakpoint overrides
@@ -45,24 +45,24 @@ description: >
 2. **Define variants** through props, not separate components:
    ```ts
    interface Props {
-     variant?: 'primary' | 'secondary' | 'ghost';
-     size?: 'sm' | 'md' | 'lg';
-     children: import('svelte').Snippet;
+   	variant?: 'primary' | 'secondary' | 'ghost';
+   	size?: 'sm' | 'md' | 'lg';
+   	children: import('svelte').Snippet;
    }
    ```
 3. **Apply styles** using conditional Tailwind classes:
    ```svelte
    <button
-     class={[
-       'rounded-lg font-medium transition-all duration-200',
-       'focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:outline-none',
-       variant === 'primary' && 'bg-white text-black hover:bg-white/90',
-       variant === 'ghost' && 'bg-transparent text-white hover:bg-white/10',
-       size === 'sm' && 'px-3 py-1.5 text-sm',
-       size === 'md' && 'px-4 py-2 text-base',
-     ]}
+   	class={[
+   		'rounded-lg font-medium transition-all duration-200',
+   		'focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:outline-none',
+   		variant === 'primary' && 'bg-white text-black hover:bg-white/90',
+   		variant === 'ghost' && 'bg-transparent text-white hover:bg-white/10',
+   		size === 'sm' && 'px-3 py-1.5 text-sm',
+   		size === 'md' && 'px-4 py-2 text-base'
+   	]}
    >
-     {@render children()}
+   	{@render children()}
    </button>
    ```
 4. **Add keyboard interaction** where needed (Escape to close, Enter/Space to activate)
@@ -98,10 +98,12 @@ description: >
 - Respect `prefers-reduced-motion`:
   ```css
   @media (prefers-reduced-motion: reduce) {
-    *, *::before, *::after {
-      animation-duration: 0.01ms !important;
-      transition-duration: 0.01ms !important;
-    }
+  	*,
+  	*::before,
+  	*::after {
+  		animation-duration: 0.01ms !important;
+  		transition-duration: 0.01ms !important;
+  	}
   }
   ```
 
@@ -111,7 +113,7 @@ description: >
 
 ```svelte
 <div class="mx-auto w-full max-w-7xl px-4 sm:px-6 lg:px-8">
-  {@render children()}
+	{@render children()}
 </div>
 ```
 
@@ -119,9 +121,9 @@ description: >
 
 ```svelte
 <div class="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
-  {#each items as item (item.id)}
-    <Card {item} />
-  {/each}
+	{#each items as item (item.id)}
+		<Card {item} />
+	{/each}
 </div>
 ```
 
@@ -129,7 +131,7 @@ description: >
 
 ```svelte
 <div class="flex flex-col gap-4">
-  <!-- Vertical stack with consistent spacing -->
+	<!-- Vertical stack with consistent spacing -->
 </div>
 ```
 
