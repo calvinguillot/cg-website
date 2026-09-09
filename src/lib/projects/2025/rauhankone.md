@@ -1,10 +1,9 @@
 # Rauhankone — Ekho Collective
 
-_2024–2025 | Helsinki / Oulu, Finland_
-_Interactive immersive installation | Oulu European Capital of Culture 2026_
+2024–2025 | Interactive immersive installation
 
-_Layers in The Peace Machine_ is an immersive and multidisciplinary media installation entangling technology and art. Based on the literary work _Peace Machine_ (_Rauhankone_) by the late Timo Honkela, the installation portrays peace as a dynamic process that shifts and evolves with the interaction of participants. The work explores how technology and collective presence can make abstract ideas — like peace — tangible and experiential.
+Layers in The Peace Machine is an immersive and multidisciplinary media-installation, entangling technology and art. Based on the literary work ”Peace Machine” by late Timo Honkela, the installation portrays peace as a dynamic process, that shifts and evolves with the interaction from the participants. This is an large interactive immersive installation for the [Oulu European Capital of Culture 2026](https://oulu2026.eu/en/). The Peace Machine is located in the Oulu city Hall. It consisit of 3 floors with audivisual interactive installations and a website where the audicen can interact with the piece.
 
-Produced as part of the programme for **Oulu European Capital of Culture 2026** by the Finnish **Ekho Collective**: a group of artists, designers, and technology professionals specialising in immersive experiences. Members: Calvin Guillot, Essi Huotari, Vertti Luostarinen, Saara-Henriikka Mäkinen, Sini Parikka, Ilmari Pesonen, Olivia Pohjola, Iina Taijonlahti, and Timo Tikka.
+The Finnish Ekho Collective is a group of artists, designers and technology professionals, who specialise in immersive experiences: Calvin Guillot, Essi Huotari, Vertti Luostarinen, Saara-Henriikka Mäkinen, Sini Parikka, Ilmari Pesonen, Olivia Pohjola, Iina Taijonlahti and Timo Tikka.
 
-_Technologies: Interactive installation, immersive media systems, real-time interactive environments, sensor-based interaction._
+![Rauhankone](../../../assets/2025/rauhankone_1.webp)
