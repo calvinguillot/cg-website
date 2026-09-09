@@ -1,7 +1,32 @@
-# Tonni YLE — Yleisradio Oy
+# Tonni YLE
 
-_October 2023 – November 2024 | Helsinki, Finland_
+2024 | AI Single-channel Video
 
-Collaboration with Kalle Eskelinen for YLE Finland. Directed and produced a series of demo videos showcasing AI-generated media capabilities using the iconic Finnish meme _Tonnin Seteli_ as source material. Managed the full pipeline from concept to delivery: custom Stable Diffusion workflows, ComfyUI automation, AnimateDiff video generation, ElevenLabs synthetic voice cloning, Python scripting for batch automation. Iterated across multiple generations of tooling (from 8h/video to 30min/video as models improved).
+This project was a collaboration with Kalle Eskelinen for Yleisradio Oy (YLE) Finland. The idea was to showcase a series of demos about the new possiblities for creating media using state-of-the-art AI systems. We used a mix of StableDiffusion (ComfyUI, animateDiff), ElevenLabs (fake voices), python scripting, and automation techniques to create several videos with different styles and deepfaked voices. These videos are based on the seminal finnish meme Tonnin Seteli.
 
-_Technologies: Stable Diffusion, ComfyUI, AnimateDiff, ElevenLabs, Python, automation scripting._
+As these technology advance, something become easier to do, and the quality also grealty improves. The technology that we used at the beginning of the project was already too slow (8h per video), and by the time we were halfway, thus we had to update for a new, faster, and better system(30min per video). You can see an example of the imporve quality in some of the videos at the end of this page. By the time of this writing, it is assured that a new system is already out there than can render these videos in real-time.
+
+<video controls playsinline preload="metadata">
+  <source src="../../../assets/2024/tonni_ps1.mp4" type="video/mp4" />
+  Tonni YLE Video 1
+</video>
+
+<video controls playsinline preload="metadata">
+  <source src="../../../assets/2024/tonni_anime.mp4" type="video/mp4" />
+  Tonni YLE Video 2
+</video>
+
+<video controls playsinline preload="metadata">
+  <source src="../../../assets/2024/tonni_comp.mp4" type="video/mp4" />
+  Tonni YLE Video 3
+</video>
+
+<video controls playsinline preload="metadata">
+  <source src="../../../assets/2024/tonni_real.mp4" type="video/mp4" />
+  Tonni YLE Video 4
+</video>
+
+<video controls playsinline preload="metadata">
+  <source src="../../../assets/2024/tonni_clay.mp4" type="video/mp4" />
+  Tonni YLE Video 5
+</video>
