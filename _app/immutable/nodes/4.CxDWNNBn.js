@@ -1,4 +1,4 @@
-import{$ as e,B as t,J as n,N as r,O as i,R as a,S as o,W as s,Y as ee,b as c,d as l,et as u,tt as d,u as f,v as p,w as m}from"../chunks/Cb2RSY1W.js";import{c as h,s as te}from"../chunks/DT24pAyA.js";import"../chunks/DXLwiZ0H.js";import{a as g,c as _,r as v}from"../chunks/XL5ULqc1.js";import{r as y,t as b}from"../chunks/C0GCkTvY.js";import{t as ne}from"../chunks/DKp-qamH.js";var x=`# Birds\r
+import{$ as e,B as t,J as n,N as r,O as i,R as a,S as o,W as s,Y as ee,b as c,d as l,et as u,tt as d,u as f,v as p,w as m}from"../chunks/Cb2RSY1W.js";import{c as h,s as te}from"../chunks/Bv4PJC_o.js";import"../chunks/DXLwiZ0H.js";import{a as g,c as _,r as v}from"../chunks/XL5ULqc1.js";import{r as y,t as b}from"../chunks/CKxK8t1c.js";import{t as ne}from"../chunks/DKp-qamH.js";var x=`# Birds\r
 \r
 2020 | p5js\r
 \r
@@ -1111,6 +1111,8 @@ The project was a port of the Carlosverse piece into an AR mobile experience, br
 \r
 Is it possible to embodied something as innocuous a natural fibres? This project was spearheaded by  [Juni Neyenhuys](https://www.instagram.com/junisun_/), in collaboration with [Julia Zambrzycki](https://www.instagram.com/agent_julio/). The goal was to produce an animation of a dancing human covered in natural fibres.  The look is inspired by actual real world fibres made from cellulose and tannin (both derived from trees) to create a naturally water-repellent material.\r
 \r
+This proejct used Blender and a custom particle proejction technique inside Touchdesigner to create the animation.\r
+\r
 ![BarkSkin](../../../assets/2026/bark_1.webp)\r
 \r
 ![BarkSkin](../../../assets/2026/bark_2.webp)\r
@@ -1127,14 +1129,54 @@ Dome Dreaming is a non-profit fulldome film festival produced by [Jonas Johansso
 ![Dome Dreaming Festival](../../../assets/2026/dome_1.webp)\r
 `,fe=`# Healing\r
 \r
-2026 | Ink on paper (pen plotter)\r
+2026 | Ink on canvas/ paper (pen plotter)\r
 \r
-After a tumultuous end to 2025, I decided to go back to basics and made about twenty prints on my modified pen plotter. Some deal with animals, some with violence, some are generative abstract art, and some are just portraits.\r
+After an interesting end to 2025, I decided to go back to basics and made about twenty prints on my modified pen plotter (took 9 months but still). Some are animals, some are generative abstract art, and some are just portraits. Precious mementos for friends and family.\r
 \r
-Pictures coming soon ...\r
-`,pe=`# Helen 24\r
+![Healing](../../../assets/2026/healing/guus.webp)\r
 \r
-2024 | Stencil Spray Paint on Metal\r
+![Healing](../../../assets/2026/healing/kalle_antti.webp)\r
+\r
+![Healing](../../../assets/2026/healing/aleuk.webp)\r
+\r
+![Healing](../../../assets/2026/healing/monika.webp)\r
+\r
+![Healing](../../../assets/2026/healing/inka.webp)\r
+\r
+![Healing](../../../assets/2026/healing/kaisu.webp)\r
+\r
+![Healing](../../../assets/2026/healing/itos.webp)\r
+\r
+![Healing](../../../assets/2026/healing/mami.webp)\r
+\r
+![Healing](../../../assets/2026/healing/papi.webp)\r
+\r
+![Healing](../../../assets/2026/healing/silja_jyrki.webp)\r
+\r
+![Healing](../../../assets/2026/healing/peru.webp)\r
+\r
+![Healing](../../../assets/2026/healing/carlos.webp)\r
+\r
+![Healing](../../../assets/2026/healing/david.webp)\r
+\r
+![Healing](../../../assets/2026/healing/margo.webp)\r
+\r
+![Healing](../../../assets/2026/healing/tino.webp)\r
+\r
+![Healing](../../../assets/2026/healing/agu.webp)\r
+\r
+![Healing](../../../assets/2026/healing/mathias_sasha.webp)\r
+\r
+![Healing](../../../assets/2026/healing/homeboy.webp)\r
+\r
+![Healing](../../../assets/2026/healing/ve.webp)\r
+\r
+<video controls playsinline preload="metadata">\r
+  <source src="../../../assets/2026/healing/healing_video.mp4" type="video/mp4" />\r
+  Healing Video\r
+</video>`,pe=`# Helen 26\r
+\r
+2026 | Stencil Spray Paint on Metal\r
 \r
 Coming soon ...\r
 `,me=`# Kotimaan Teknokatsaus XVI\r
@@ -1148,17 +1190,33 @@ I collaborated with [Ana Gutieszca](https://www.instagram.com/anagutieszca/). Sh
 ![Kotimaan Teknokatsaus XVI](../../../assets/2026/kotimaan_1.webp)\r
 \r
 ![Kotimaan Teknokatsaus XVI](../../../assets/2026/kotimaan_2.webp)\r
-`,he=`# Photoboiler\r
+`,he=`# The Oracle\r
 \r
-2026 | Digital Fabrication\r
+2026 | Interactive Large-scale sculpture\r
 \r
-Coming soon ...\r
-`,Z=`# The Oracle\r
+The Oracle was commissioned as part of Crasman's Creative Nerd 1996–2026: From Modems to the Meme Economy. An exhibition that explores the history of the commercial internet in Finland from 1996 to 2026.\r
 \r
-2026 | Interactive immersive installation\r
+The exhibition was held at Helsinki's Cable Factory from September 26 to October 17, 2026. It combines a retrospective and contemporary art, guiding the visitor through the turning points of the internet and digital culture.\r
+The works examine the subcultures, visual aesthetics, and the people and phenomena that have shaped Finnish digital culture over the past 30 years around the internet.\r
 \r
-Coming soon ...\r
-`;function Q(e,t){throw new h(e,t)}var ge=d({entries:()=>_e,load:()=>ve}),$=Object.assign({"/src/lib/projects/2020/birds.md":x,"/src/lib/projects/2020/math.md":S,"/src/lib/projects/2020/paintings.md":C,"/src/lib/projects/2020/various.md":w,"/src/lib/projects/2021/fields.md":T,"/src/lib/projects/2021/lamp.md":E,"/src/lib/projects/2021/memoranda.md":D,"/src/lib/projects/2021/trillium.md":O,"/src/lib/projects/2022/corrugations.md":k,"/src/lib/projects/2022/explainable-ai.md":A,"/src/lib/projects/2022/invisible-lines.md":j,"/src/lib/projects/2022/pixel.md":M,"/src/lib/projects/2022/stranded-foundations.md":N,"/src/lib/projects/2022/vj-rosa-jules.md":P,"/src/lib/projects/2022/vj-tokyo-ry.md":F,"/src/lib/projects/2023/carlosverse.md":I,"/src/lib/projects/2023/dresses.md":L,"/src/lib/projects/2023/ihmisen-jalkeen.md":R,"/src/lib/projects/2023/sonorama-r-bus.md":z,"/src/lib/projects/2023/takeoff.md":B,"/src/lib/projects/2023/vj-various.md":V,"/src/lib/projects/2023/vj-wild-perra.md":H,"/src/lib/projects/2023/yoton-yo.md":U,"/src/lib/projects/2024/helen-24.md":W,"/src/lib/projects/2024/lala-salama-aurinko.md":re,"/src/lib/projects/2024/off-the-wall.md":G,"/src/lib/projects/2024/real-reality.md":K,"/src/lib/projects/2024/rottien-pyhimys.md":q,"/src/lib/projects/2024/telar.md":J,"/src/lib/projects/2024/tonni-yle.md":Y,"/src/lib/projects/2024/vj-e30v.md":X,"/src/lib/projects/2025/computer-vision-expo.md":ie,"/src/lib/projects/2025/consumed.md":ae,"/src/lib/projects/2025/kraftlaus.md":oe,"/src/lib/projects/2025/outsider-carlosverse.md":se,"/src/lib/projects/2025/rauhankone.md":ce,"/src/lib/projects/2025/unframed-ticas.md":le,"/src/lib/projects/2026/bark-skin.md":ue,"/src/lib/projects/2026/dome-dreaming-festival.md":de,"/src/lib/projects/2026/healing.md":fe,"/src/lib/projects/2026/helen-26.md":pe,"/src/lib/projects/2026/kotimaan-teknokatsaus-xvi.md":me,"/src/lib/projects/2026/photoboiler.md":he,"/src/lib/projects/2026/the-oracle.md":Z});function _e(){return y.map(e=>({slug:e.url}))}function ve({params:e}){let{slug:t}=e,n=b(y,t);if(!n)throw Q(404,`Project not found`);let r=Object.keys($).find(e=>e.endsWith(`/${n.file}`)),i=r?$[r]:null;if(typeof i!=`string`)throw Q(404,`Project content not found`);let a=g(`/${n.url}`);return{project:n,source:i,..._({title:n.title,description:n.description,canonical:a,openGraph:{type:`article`,url:a,title:`${n.title} | ${v}`,description:n.description}})}}var ye=m(`<video><!></video>`,2),be=m(`<audio><!></audio>`),xe=m(`<p>Content not available.</p>`),Se=m(`<div class="mx-auto w-full max-w-3xl px-4 py-8 sm:px-6"><a class="mb-8 inline-block text-sm text-zinc-500 hover:underline dark:text-zinc-400">Back</a> <article class="prose max-w-none prose-zinc dark:prose-invert
+<!-- ![The Oracle](../../../assets/2026/the_oracle_1.webp)\r
+![The Oracle](../../../assets/2026/the_oracle_2.webp)\r
+![The Oracle](../../../assets/2026/the_oracle_3.webp)\r
+![The Oracle](../../../assets/2026/the_oracle_4.webp)\r
+![The Oracle](../../../assets/2026/the_oracle_5.webp)\r
+![The Oracle](../../../assets/2026/the_oracle_6.webp)\r
+![The Oracle](../../../assets/2026/the_oracle_7.webp)\r
+![The Oracle](../../../assets/2026/the_oracle_8.webp) -->\r
+\r
+New state of the art AI systems can parse and process its contents to produce a sometimes-accurate depiction of reality. And as more information is fed into these systems, these so-called artificial entities become smarter by the day.\r
+With most human knowledge, fears, and desires being processed by machines, could it be possible that, at some point, our brains will begin merging with them? At the same time, great goal are being pursued in other fields of science. One of them is quantum computing, where qubits exist in a superposition state, not unlike some current interpretations of consciousness. In the future, with all these technologies merging and evolving, with our souls plugged into the network, and with the world facing crisis after crisis, could a new faith, perhaps a techno-religion, be born from the inevitable unification? Could we be creating the same higher power that we have been seeking for eons? During these transitional times, we must remember Clarke's Third Law: "Any sufficiently advanced technology is indistinguishable from magic.“\r
+\r
+The Oracle is an interactive installation consisting of a large-scale device made of acrylic and metal, with a holographic display at its core. The audience can use a microphone to input any type of aural message into the system, after which an AI processes it and provides a response in human language to the participant, among visual cues and other sounds too. Each message is saved and embedded into the memory of the system. The system may also ask questions of its own. Thus, the future state of the machine, much like our own world, will be defined by our actions, desires, and fears.\r
+\r
+The display showcases a faceless humanoid face, and allegory to all the souls stored in the device. The LED lights and sounds react depending on the state of the system. The Oracle is placed in large scale black box which aids in its ritualistic nature. The audience is encouraged to enter this “found” artifact from the future, and ask any question that they can imagine.\r
+\r
+<!-- The Oracle is an interactive installation set in a future where the internet's vast ocean of human knowledge, fears, and desires has merged with our collective consciousness. Together, they form a new entity, indistinguishable from the divine presence humanity has long sought. -->\r
+`;function Z(e,t){throw new h(e,t)}var ge=d({entries:()=>$,load:()=>_e}),Q=Object.assign({"/src/lib/projects/2020/birds.md":x,"/src/lib/projects/2020/math.md":S,"/src/lib/projects/2020/paintings.md":C,"/src/lib/projects/2020/various.md":w,"/src/lib/projects/2021/fields.md":T,"/src/lib/projects/2021/lamp.md":E,"/src/lib/projects/2021/memoranda.md":D,"/src/lib/projects/2021/trillium.md":O,"/src/lib/projects/2022/corrugations.md":k,"/src/lib/projects/2022/explainable-ai.md":A,"/src/lib/projects/2022/invisible-lines.md":j,"/src/lib/projects/2022/pixel.md":M,"/src/lib/projects/2022/stranded-foundations.md":N,"/src/lib/projects/2022/vj-rosa-jules.md":P,"/src/lib/projects/2022/vj-tokyo-ry.md":F,"/src/lib/projects/2023/carlosverse.md":I,"/src/lib/projects/2023/dresses.md":L,"/src/lib/projects/2023/ihmisen-jalkeen.md":R,"/src/lib/projects/2023/sonorama-r-bus.md":z,"/src/lib/projects/2023/takeoff.md":B,"/src/lib/projects/2023/vj-various.md":V,"/src/lib/projects/2023/vj-wild-perra.md":H,"/src/lib/projects/2023/yoton-yo.md":U,"/src/lib/projects/2024/helen-24.md":W,"/src/lib/projects/2024/lala-salama-aurinko.md":re,"/src/lib/projects/2024/off-the-wall.md":G,"/src/lib/projects/2024/real-reality.md":K,"/src/lib/projects/2024/rottien-pyhimys.md":q,"/src/lib/projects/2024/telar.md":J,"/src/lib/projects/2024/tonni-yle.md":Y,"/src/lib/projects/2024/vj-e30v.md":X,"/src/lib/projects/2025/computer-vision-expo.md":ie,"/src/lib/projects/2025/consumed.md":ae,"/src/lib/projects/2025/kraftlaus.md":oe,"/src/lib/projects/2025/outsider-carlosverse.md":se,"/src/lib/projects/2025/rauhankone.md":ce,"/src/lib/projects/2025/unframed-ticas.md":le,"/src/lib/projects/2026/bark-skin.md":ue,"/src/lib/projects/2026/dome-dreaming-festival.md":de,"/src/lib/projects/2026/healing.md":fe,"/src/lib/projects/2026/helen-26.md":pe,"/src/lib/projects/2026/kotimaan-teknokatsaus-xvi.md":me,"/src/lib/projects/2026/the-oracle.md":he});function $(){return y.map(e=>({slug:e.url}))}function _e({params:e}){let{slug:t}=e,n=b(y,t);if(!n)throw Z(404,`Project not found`);let r=Object.keys(Q).find(e=>e.endsWith(`/${n.file}`)),i=r?Q[r]:null;if(typeof i!=`string`)throw Z(404,`Project content not found`);let a=g(`/${n.url}`);return{project:n,source:i,..._({title:n.title,description:n.description,canonical:a,openGraph:{type:`article`,url:a,title:`${n.title} | ${v}`,description:n.description}})}}var ve=m(`<video><!></video>`,2),ye=m(`<audio><!></audio>`),be=m(`<p>Content not available.</p>`),xe=m(`<div class="mx-auto w-full max-w-3xl px-4 py-8 sm:px-6"><a class="mb-8 inline-block text-sm text-zinc-500 hover:underline dark:text-zinc-400">Back</a> <article class="prose max-w-none prose-zinc dark:prose-invert
 			prose-headings:font-medium prose-headings:tracking-tight
 			prose-a:text-zinc-900 prose-a:underline dark:prose-a:text-zinc-100
-			prose-img:rounded-none"><!></article></div>`);function Ce(d,m){ee(m,!0),s(()=>m.data.project);let h=s(()=>m.data.source),g=e=>Object.fromEntries(Object.entries(e??{}).map(([e,t])=>[e,t===``?!0:t]));var _=Se(),v=a(_),y=t(v,2),b=a(y),x=t=>{ne(t,{get source(){return i(h)},html_video:(t,n)=>{let r=()=>n?.().attributes,i=()=>n?.().children;var s=ye();f(s,e=>({class:`my-8 h-auto w-full`,...e}),[()=>g(r())]),p(a(s),()=>i()??u),e(s),o(t,s)},html_audio:(t,n)=>{let r=()=>n?.().attributes,i=()=>n?.().children;var s=be();f(s,e=>({class:`my-8 w-full`,...e}),[()=>g(r())]),p(a(s),()=>i()??u),e(s),o(t,s)},$$slots:{html_video:!0,html_audio:!0}})},S=e=>{o(e,xe())};c(b,e=>{typeof i(h)==`string`?e(x):e(S,-1)}),e(y),e(_),r(e=>l(v,`href`,e),[()=>te(`/`)]),o(d,_),n()}export{Ce as component,ge as universal};
+			prose-img:rounded-none"><!></article></div>`);function Se(d,m){ee(m,!0),s(()=>m.data.project);let h=s(()=>m.data.source),g=e=>Object.fromEntries(Object.entries(e??{}).map(([e,t])=>[e,t===``?!0:t]));var _=xe(),v=a(_),y=t(v,2),b=a(y),x=t=>{ne(t,{get source(){return i(h)},html_video:(t,n)=>{let r=()=>n?.().attributes,i=()=>n?.().children;var s=ve();f(s,e=>({class:`my-8 h-auto w-full`,...e}),[()=>g(r())]),p(a(s),()=>i()??u),e(s),o(t,s)},html_audio:(t,n)=>{let r=()=>n?.().attributes,i=()=>n?.().children;var s=ye();f(s,e=>({class:`my-8 w-full`,...e}),[()=>g(r())]),p(a(s),()=>i()??u),e(s),o(t,s)},$$slots:{html_video:!0,html_audio:!0}})},S=e=>{o(e,be())};c(b,e=>{typeof i(h)==`string`?e(x):e(S,-1)}),e(y),e(_),r(e=>l(v,`href`,e),[()=>te(`/`)]),o(d,_),n()}export{Se as component,ge as universal};
