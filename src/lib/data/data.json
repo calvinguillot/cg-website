@@ -16,12 +16,12 @@
 		"file": "2026/helen-26.md"
 	},
 	{
-		"title": "Photoboiler",
+		"title": "Healing",
 		"year": "2026",
-		"url": "photoboiler",
-		"location": "Espoo, Finland",
-		"description": "Design and manufacture of a metal and 3d printed case for a computer visoin system.",
-		"file": "2026/photoboiler.md"
+		"url": "healing",
+		"location": "Helsinki, Finland",
+		"description": "Approximately twenty pen-plotter prints on ink and paper — a personal reset through making after a tumultuous year.",
+		"file": "2026/healing.md"
 	},
 	{
 		"title": "BarkSkin",
@@ -46,14 +46,6 @@
 		"location": "Helsinki, Finland",
 		"description": "Participation in the 2026 edition of Kotimaan Teknokatsaus, a recurring review of technology culture and practice in Finland.",
 		"file": "2026/kotimaan-teknokatsaus-xvi.md"
-	},
-	{
-		"title": "Healing",
-		"year": "2026",
-		"url": "healing",
-		"location": "Helsinki, Finland",
-		"description": "Approximately twenty pen-plotter prints on ink and paper — a personal reset through making after a tumultuous year.",
-		"file": "2026/healing.md"
 	},
 	{
 		"title": "Rauhankone",
