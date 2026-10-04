@@ -20,49 +20,49 @@ You can read more at Kapsakki’s page, [Helsingin Sanomat](https://www.hs.fi/ku
 
 ![Rottien Pyhimys 7](../../../assets/2024/rottien_7.webp)
 
-Credits:
+Credits:  
 
-Cast:
-Aurora Manninen
-Jasper Leppänen
-Kai Bäckström
-Jyri Lahtinen
-Petri Bäckström
-Eeva Semerdjiev
+Cast:  
+Aurora Manninen  
+Jasper Leppänen  
+Kai Bäckström  
+Jyri Lahtinen  
+Petri Bäckström  
+Eeva Semerdjiev  
 
-Musicians:
-Janek Öller
-Ilkka Heinonen
-Miika Vintturi
+Musicians:  
+Janek Öller  
+Ilkka Heinonen  
+Miika Vintturi  
 
-Libretto:
-Anneli Kanto
+Libretto:  
+Anneli Kanto  
 
-Composition:
-Jukka Nykänen
+Composition:  
+Jukka Nykänen  
 
-Direction and artistic concept:
-Reetta Ristimäki
+Direction and artistic concept:  
+Reetta Ristimäki  
 
-Visual artists:
-Calvin Guillot
-Małgorzata Nowicka
+Visual artists:  
+Calvin Guillot  
+Małgorzata Nowicka  
 
-Lighting design:
-Mirkka Saari
+Lighting design:  
+Mirkka Saari  
 
-Sound design:
-Max Marshall
+Sound design:  
+Max Marshall  
 
-Costume design:
-Marja Uusitalo
+Costume design:  
+Marja Uusitalo  
 
-Masking design:
-Ari Haapaniemi
+Masking design:  
+Ari Haapaniemi  
 
-Production:
-[Greta Tuotanto](https://www.gretatuotanto.fi/)
-Music Theater Kapsäkki
+Production:  
+[Greta Tuotanto](https://www.gretatuotanto.fi/)  
+Music Theater Kapsäkki  
 
-Collaborators:
-Aalto University's MAGICS project
+Collaborators:  
+Aalto University's MAGICS project  
