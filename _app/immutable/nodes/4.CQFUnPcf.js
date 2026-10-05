@@ -1,4 +1,4 @@
-import{$ as e,B as t,J as n,N as r,O as i,R as a,S as o,W as s,Y as ee,b as c,d as l,et as u,tt as d,u as f,v as p,w as m}from"../chunks/Cb2RSY1W.js";import{c as h,s as te}from"../chunks/1Dd12mNZ.js";import"../chunks/DXLwiZ0H.js";import{a as g,c as _,r as v}from"../chunks/XL5ULqc1.js";import{r as y,t as b}from"../chunks/CKxK8t1c.js";import{t as ne}from"../chunks/DKp-qamH.js";var x=`# Birds\r
+import{$ as e,B as t,J as n,N as r,O as i,R as a,S as o,W as s,Y as ee,b as c,d as l,et as u,tt as d,u as f,v as p,w as m}from"../chunks/Cb2RSY1W.js";import{c as h,s as te}from"../chunks/B39axRQm.js";import"../chunks/DXLwiZ0H.js";import{a as g,c as _,r as v}from"../chunks/XL5ULqc1.js";import{r as y,t as b}from"../chunks/CKxK8t1c.js";import{t as ne}from"../chunks/DKp-qamH.js";var x=`# Birds\r
 \r
 2020 | p5js\r
 \r
@@ -1212,6 +1212,8 @@ With most human knowledge, fears, and desires being processed by machines, could
 \r
 In the future, with all these technologies merging and evolving, with our souls plugged into the network, and with the world facing crisis after crisis, could a new faith, perhaps a techno-religion, be born from the inevitable unification? Could we be creating the same higher power that we have been seeking for eons? During these transitional times, we must remember Clarke's Third Law: "Any sufficiently advanced technology is indistinguishable from magic.“\r
 \r
+![The Oracle 15](../../../assets/2026/oracle/oracle_15.webp)\r
+\r
 ![The Oracle 4](../../../assets/2026/oracle/oracle_4.webp)\r
 \r
 ![The Oracle 5](../../../assets/2026/oracle/oracle_5.webp)\r
@@ -1225,9 +1227,9 @@ In the future, with all these technologies merging and evolving, with our souls 
   Oracle Video 2\r
 </video>\r
 \r
-The Oracle is an interactive installation consisting of a large-scale device made of acrylic and metal.  with a holographic display at its core. It measures around 2 meters tall by 1 metter in diameter. The audience can use a microphone to input any type of aural message into the system, after which an AI processes it and provides a response in human language to the participant, among visual cues and other sounds too. \r
+The Oracle is an interactive installation consisting of a large-scale device made of acrylic and metal.  with a holographic display at its core. It measures around 2 meters tall by 1 metter in diameter. The audience can use a microphone to input any type of aural message into the system, after which an AI processes it and provides a response in human language to the participant, among visual cues and other sounds too.\r
 \r
-The AI system runs on device qwen3.5:4b, whisper and piper. It can detect up to 99 languages, but its limited to 10 while performing text to speech.\r
+The AI system runs on device with qwen3.5:4b, whisper and piper. It can detect up to 99 languages, but its limited to 10 while performing text to speech. All routes through a custom TouchDesigner environment. You can find the full code, shceamtics and installtion guides in the [Oracle Repository](https://github.com/calvinguillot/theoracle).\r
 \r
 Each message is saved and embedded into the memory of the system. The system may also ask questions of its own. Thus, the future state of the machine, much like our own world, will be defined by our actions, desires, and fears.\r
 \r
@@ -1283,6 +1285,7 @@ Special thanks to:  \r
 Tino Selic  \r
 Alejandro Romero  \r
 Luli  \r
+Crasman Team  \r
 `;function Z(e,t){throw new h(e,t)}var ge=d({entries:()=>$,load:()=>_e}),Q=Object.assign({"/src/lib/projects/2020/birds.md":x,"/src/lib/projects/2020/math.md":S,"/src/lib/projects/2020/paintings.md":C,"/src/lib/projects/2020/various.md":w,"/src/lib/projects/2021/fields.md":T,"/src/lib/projects/2021/lamp.md":E,"/src/lib/projects/2021/memoranda.md":D,"/src/lib/projects/2021/trillium.md":O,"/src/lib/projects/2022/corrugations.md":k,"/src/lib/projects/2022/explainable-ai.md":A,"/src/lib/projects/2022/invisible-lines.md":j,"/src/lib/projects/2022/pixel.md":M,"/src/lib/projects/2022/stranded-foundations.md":N,"/src/lib/projects/2022/vj-rosa-jules.md":P,"/src/lib/projects/2022/vj-tokyo-ry.md":F,"/src/lib/projects/2023/carlosverse.md":I,"/src/lib/projects/2023/dresses.md":L,"/src/lib/projects/2023/ihmisen-jalkeen.md":R,"/src/lib/projects/2023/sonorama-r-bus.md":z,"/src/lib/projects/2023/takeoff.md":B,"/src/lib/projects/2023/vj-various.md":V,"/src/lib/projects/2023/vj-wild-perra.md":H,"/src/lib/projects/2023/yoton-yo.md":U,"/src/lib/projects/2024/helen-24.md":W,"/src/lib/projects/2024/lala-salama-aurinko.md":re,"/src/lib/projects/2024/off-the-wall.md":G,"/src/lib/projects/2024/real-reality.md":K,"/src/lib/projects/2024/rottien-pyhimys.md":q,"/src/lib/projects/2024/telar.md":J,"/src/lib/projects/2024/tonni-yle.md":Y,"/src/lib/projects/2024/vj-e30v.md":X,"/src/lib/projects/2025/computer-vision-expo.md":ie,"/src/lib/projects/2025/consumed.md":ae,"/src/lib/projects/2025/kraftlaus.md":oe,"/src/lib/projects/2025/outsider-carlosverse.md":se,"/src/lib/projects/2025/rauhankone.md":ce,"/src/lib/projects/2025/unframed-ticas.md":le,"/src/lib/projects/2026/bark-skin.md":ue,"/src/lib/projects/2026/dome-dreaming-festival.md":de,"/src/lib/projects/2026/healing.md":fe,"/src/lib/projects/2026/helen-26.md":pe,"/src/lib/projects/2026/kotimaan-teknokatsaus-xvi.md":me,"/src/lib/projects/2026/the-oracle.md":he});function $(){return y.map(e=>({slug:e.url}))}function _e({params:e}){let{slug:t}=e,n=b(y,t);if(!n)throw Z(404,`Project not found`);let r=Object.keys(Q).find(e=>e.endsWith(`/${n.file}`)),i=r?Q[r]:null;if(typeof i!=`string`)throw Z(404,`Project content not found`);let a=g(`/${n.url}`);return{project:n,source:i,..._({title:n.title,description:n.description,canonical:a,openGraph:{type:`article`,url:a,title:`${n.title} | ${v}`,description:n.description}})}}var ve=m(`<video><!></video>`,2),ye=m(`<audio><!></audio>`),be=m(`<p>Content not available.</p>`),xe=m(`<div class="mx-auto w-full max-w-3xl px-4 py-8 sm:px-6"><a class="mb-8 inline-block text-sm text-zinc-500 hover:underline dark:text-zinc-400">Back</a> <article class="prose max-w-none prose-zinc dark:prose-invert
 			prose-headings:font-medium prose-headings:tracking-tight
 			prose-a:text-zinc-900 prose-a:underline dark:prose-a:text-zinc-100
