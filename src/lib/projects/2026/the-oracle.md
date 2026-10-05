@@ -20,6 +20,8 @@ With most human knowledge, fears, and desires being processed by machines, could
 
 In the future, with all these technologies merging and evolving, with our souls plugged into the network, and with the world facing crisis after crisis, could a new faith, perhaps a techno-religion, be born from the inevitable unification? Could we be creating the same higher power that we have been seeking for eons? During these transitional times, we must remember Clarke's Third Law: "Any sufficiently advanced technology is indistinguishable from magic.“
 
+![The Oracle 15](../../../assets/2026/oracle/oracle_15.webp)
+
 ![The Oracle 4](../../../assets/2026/oracle/oracle_4.webp)
 
 ![The Oracle 5](../../../assets/2026/oracle/oracle_5.webp)
@@ -33,9 +35,9 @@ In the future, with all these technologies merging and evolving, with our souls 
   Oracle Video 2
 </video>
 
-The Oracle is an interactive installation consisting of a large-scale device made of acrylic and metal.  with a holographic display at its core. It measures around 2 meters tall by 1 metter in diameter. The audience can use a microphone to input any type of aural message into the system, after which an AI processes it and provides a response in human language to the participant, among visual cues and other sounds too. 
+The Oracle is an interactive installation consisting of a large-scale device made of acrylic and metal.  with a holographic display at its core. It measures around 2 meters tall by 1 metter in diameter. The audience can use a microphone to input any type of aural message into the system, after which an AI processes it and provides a response in human language to the participant, among visual cues and other sounds too.
 
-The AI system runs on device qwen3.5:4b, whisper and piper. It can detect up to 99 languages, but its limited to 10 while performing text to speech.
+The AI system runs on device with qwen3.5:4b, whisper and piper. It can detect up to 99 languages, but its limited to 10 while performing text to speech. All routes through a custom TouchDesigner environment. You can find the full code, shceamtics and installtion guides in the [Oracle Repository](https://github.com/calvinguillot/theoracle).
 
 Each message is saved and embedded into the memory of the system. The system may also ask questions of its own. Thus, the future state of the machine, much like our own world, will be defined by our actions, desires, and fears.
 
@@ -91,3 +93,4 @@ Special thanks to:
 Tino Selic  
 Alejandro Romero  
 Luli  
+Crasman Team  
