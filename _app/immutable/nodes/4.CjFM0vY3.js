@@ -1,4 +1,4 @@
-import{$ as e,B as t,J as n,N as r,O as i,R as a,S as o,W as s,Y as ee,b as c,d as l,et as u,tt as d,u as f,v as p,w as m}from"../chunks/Cb2RSY1W.js";import{c as h,s as te}from"../chunks/F8Aa8DXl.js";import"../chunks/DXLwiZ0H.js";import{a as g,c as _,r as v}from"../chunks/XL5ULqc1.js";import{r as y,t as b}from"../chunks/D492LbBi.js";import{t as ne}from"../chunks/DKp-qamH.js";var x=`# Birds\r
+import{$ as e,B as t,J as n,N as r,O as i,R as a,S as o,W as s,Y as ee,b as c,d as l,et as u,tt as d,u as f,v as p,w as m}from"../chunks/Cb2RSY1W.js";import{c as h,s as te}from"../chunks/B0UIRV7r.js";import"../chunks/DXLwiZ0H.js";import{a as g,c as _,r as v}from"../chunks/XL5ULqc1.js";import{r as y,t as b}from"../chunks/D492LbBi.js";import{t as ne}from"../chunks/DKp-qamH.js";var x=`# Birds\r
 \r
 2020 | p5js\r
 \r

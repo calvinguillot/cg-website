@@ -1,4 +1,4 @@
-import{$ as e,B as t,J as n,N as r,O as i,R as a,S as o,W as s,Y as c,b as l,d as u,tt as d,w as f}from"../chunks/Cb2RSY1W.js";import{s as p}from"../chunks/F8Aa8DXl.js";import"../chunks/DXLwiZ0H.js";import{c as m,o as h}from"../chunks/XL5ULqc1.js";import{t as g}from"../chunks/DKp-qamH.js";var _=`# About\r
+import{$ as e,B as t,J as n,N as r,O as i,R as a,S as o,W as s,Y as c,b as l,d as u,tt as d,w as f}from"../chunks/Cb2RSY1W.js";import{s as p}from"../chunks/B0UIRV7r.js";import"../chunks/DXLwiZ0H.js";import{c as m,o as h}from"../chunks/XL5ULqc1.js";import{t as g}from"../chunks/DKp-qamH.js";var _=`# About\r
 \r
 ![Profile Picture](../../pp.webp)\r
 \r
@@ -8,7 +8,7 @@ His goal is to push the boundaries of what is possible at the intersection of ar
 \r
 His art has been exhibited in the Nordics, several places in Europe, and Japan. He also works developer and engineer, and has taught computational art in several universities in the Nordics.\r
 \r
-[CV Extended](../../CG_CV_Extended_0726.pdf) | [Instagram](https://www.instagram.com/cgxatlas/) | [Email](mailto:calvin@guillot.dev)\r
+[CV Extended](../../../CG_CV_Extended_1026.pdf) | [Instagram](https://www.instagram.com/cgxatlas/) | [Email](mailto:hello@calvinguillot.com)\r
 \r
 ### Education\r
 \r
