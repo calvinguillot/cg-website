@@ -8,7 +8,7 @@ His goal is to push the boundaries of what is possible at the intersection of ar
 
 His art has been exhibited in the Nordics, several places in Europe, and Japan. He also works developer and engineer, and has taught computational art in several universities in the Nordics.
 
-[CV Extended](../../../static/CG_CV_Extended_1026.pdf) | [Instagram](https://www.instagram.com/cgxatlas/) | [Email](hello@calvinguillot.com)
+[CV Extended](../../../CG_CV_Extended_1026.pdf) | [Instagram](https://www.instagram.com/cgxatlas/) | [Email](mailto:hello@calvinguillot.com)
 
 ### Education
 
